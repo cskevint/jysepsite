@@ -1,118 +1,13 @@
-<!doctype html>
-<html xmlns="http://www.w3.org/1999/xhtml" xmlns:fb="http://www.facebook.com/2008/fbml" xmlns:og="http://ogp.me/ns#">
-<head>
-    <title>The Triangle Junior Youth Spiritual Empowerment Program</title>
-    <meta name="csrf-param" content="authenticity_token" />
-    <meta name="csrf-token" content="1uXChVcPhiNbxsBnIXy+gg9iQzkSIKWhdAJiIO1l5xd2qMnLzA9oVgYoc30kuYFJuo1mm3Ie7smkjyLcXuupxA==" />
-    <meta charset="utf-8">
-    <meta http-equiv="imagetoolbar" content="no">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1,requiresActiveX=true">
-    <meta name="SKYPE_TOOLBAR" content="SKYPE_TOOLBAR_PARSER_COMPATIBLE">
-    <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="author" content="Uplift Chapelboro">
-    <meta name="description" content="A global volunteer and mentoring program inspiring young people, parents, and community members to work together toward a better world. Over the past 10 years, the program has grown throughout Chapel Hill, Carrboro, Durham, Cary, Raleigh.">
-    <meta name="keywords" content="Triangle, Junior Youth Spiritual Empowerment Program, Chapel Hill, Carrboro, Durham, Cary, Raleigh, Volunteer, Mentor, Middle School, Youth, Service, After School Program, Community, Spiritual, Religion, Social Action, Chapelboro">
-    <meta property="fb:admins" content="78200184" />
-    <meta property="fb:admins" content="554440022" />
-    <meta property="og:url" content="https://www.upliftchapelboro.org/three-questions" />
-    <meta property="og:title" content="Three questions you need to ask yourself" />
-    <meta property="og:description" content="We have a lot in common with young people all over the world, even though our cultures, backgrounds, and personalities may be different. One of our most important similarities is our readiness to make a change in the world. But before we can do that, we need to take a look at our own lives. Here are three questions to help you examine how the choices you make can contribute to social progress. So, go ahead and think about them or talk them over with a friend." />
-    <meta property="og:site_name" content="Uplift Chapelboro" />
-    <meta property="og:image" content="/img/topic-1-full_fb.jpg" />
-    <meta property="og:type" content="article" />
-    <meta name="mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="default">
-    <meta name="apple-mobile-web-app-title" content="JYSEP">
-    <meta name="application-name" content="JYSEP">
-    <meta name="msapplication-tooltip" content="JYSEP">
-    <meta name="msapplication-starturl" content="https://www.upliftchapelboro.org/">
-    <meta name="theme-color" content="#FF0000">
-    <meta name="msapplication-TileColor" content="#CC0000">
-    <meta name="msapplication-TileImage" content="/mstile-144x144.png?v=5AABvr8G2m">
-    <meta name="msapplication-config" content="/browserconfig.xml?v=5AABvr8G2m">
-    <link rel="manifest" href="/manifest.json?v=5AABvr8G2m">
+<?php
 
-    <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon.png">
-    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="/apple-touch-icon-precomposed.png">
+$page_og_url = "http://sanmateo.junioryouth.us/three-questions";
+$page_og_title = "Three questions you need to ask yourself";
+$page_og_description = "We have a lot in common with young people all over the world, even though our cultures, backgrounds, and personalities may be different. One of our most important similarities is our readiness to make a change in the world. But before we can do that, we need to take a look at our own lives. Here are three questions to help you examine how the choices you make can contribute to social progress. So, go ahead and think about them or talk them over with a friend.";
+$page_og_image = "img/topic-1-full_fb.jpg";
 
-    <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57-precomposed.png?v=5AABvr8G2m">
-    <link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon-60x60-precomposed.png?v=5AABvr8G2m">
-    <link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72-precomposed.png?v=5AABvr8G2m">
-    <link rel="apple-touch-icon" sizes="76x76" href="/apple-touch-icon-76x76-precomposed.png?v=5AABvr8G2m">
-    <link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114x114-precomposed.png?v=5AABvr8G2m">
-    <link rel="apple-touch-icon" sizes="120x120" href="/apple-touch-icon-120x120-precomposed.png?v=5AABvr8G2m">
-    <link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144x144-precomposed.png?v=5AABvr8G2m">
-    <link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon-152x152-precomposed.png?v=5AABvr8G2m">
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon-180x180-precomposed.png?v=5AABvr8G2m">
+require_once('header.php');
 
-    <link rel="icon" type="image/png" href="/favicon-16x16.png?v=5AABvr8G2m" sizes="16x16">
-    <link rel="icon" type="image/png" href="/favicon-32x32.png?v=5AABvr8G2m" sizes="32x32">
-    <link rel="icon" type="image/png" href="/favicon-96x96.png?v=5AABvr8G2m" sizes="96x96">
-    <link rel="icon" type="image/png" href="/favicon-194x194.png?v=5AABvr8G2m" sizes="194x194">
-
-    <link rel="icon" type="image/png" href="/android-chrome-192x192.png?v=5AABvr8G2m" sizes="192x192">
-
-    <link rel="shortcut icon" href="/favicon.ico?v=5AABvr8G2m">
-
-    <link href='https://fonts.googleapis.com/css?family=Hind:400,300,500,600,700|Lora:400,400italic' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-    <link rel="stylesheet" media="all" href="/css/application-c2b3e1f7211cf3d2477f1a81e820fa91d6bfb4150f358d9d6cb0198af33fcc67.css" />
-    <script>(function() {
-        var _fbq = window._fbq || (window._fbq = []);
-        if (!_fbq.loaded) {
-            var fbds = document.createElement('script');
-            fbds.async = true;
-            fbds.src = '//connect.facebook.net/en_US/fbds.js';
-            var s = document.getElementsByTagName('script')[0];
-            s.parentNode.insertBefore(fbds, s);
-            _fbq.loaded = true;
-        }
-    })();
-    window._fbq = window._fbq || [];
-    window._fbq.push(['track', '6030258551627', {'value':'0.00','currency':'USD'}]);
-    </script>
-    <noscript><img height="1" width="1" alt="" style="display:none" src="https://www.facebook.com/tr?ev=6030258551627&amp;cd[value]=0.00&amp;cd[currency]=USD&amp;noscript=1" /></noscript>
-    <script>(function() {
-        var _fbq = window._fbq || (window._fbq = []);
-        if (!_fbq.loaded) {
-            var fbds = document.createElement('script');
-            fbds.async = true;
-            fbds.src = '//connect.facebook.net/en_US/fbds.js';
-            var s = document.getElementsByTagName('script')[0];
-            s.parentNode.insertBefore(fbds, s);
-            _fbq.loaded = true;
-        }
-        _fbq.push(['addPixelId', '550390798443501']);
-    })();
-    window._fbq = window._fbq || [];
-    window._fbq.push(['track', 'PixelInitialized', {}]);
-    </script>
-    <noscript><img height="1" width="1" alt="" style="display:none" src="https://www.facebook.com/tr?id=550390798443501&amp;ev=PixelInitialized" /></noscript>
-
-</head>
-<body class="c-topics is-three_questions">
-
-<header class="site-header">
-    <a href="/" class="site-logo" title="The Triangle Junior Youth Spiritual Empowerment Program"><img src="/img/logo.png" alt="" class="icon"></a>
-    <a href="/get-involved.html" class="btn_cta pri-1 js-scrollToAnchor" data-gaValue="get_involved_top_nav">Get involved</a>
-    <a href="https://www.facebook.com/trianglejyg" class="sm-link" target="_blank" onclick="ga('send', 'event', 'link', 'click', 'join_facebook_top_nav', 1);"><span class="icon icon-sm fb"><i class="fa fa-facebook"></i></span>Join us on Facebook</a>
-
-    <button class="btn_showMobileNav js-showMobileNav"><span></span></button>
-    <nav class="site-nav">
-        <ul>
-            <li class=" "><a onclick="ga(&#39;send&#39;, &#39;event&#39;, &#39;link&#39;, &#39;click&#39;, &#39;home&#39;, 1);" href="/">Home</a></li>
-            <li><a href="/#what_is_jysp" class="js-scrollToAnchor" data-gaValue="what_is_jysp_drawer_nav">What is the JYSEP?</a></li>
-            <li><a href="/#what_motivates_us" class="js-scrollToAnchor" data-gaValue="what_motivates_us_nav">What Motivates Us</a></li>
-            <li class="is-current slight-indent"><a onclick="ga(&#39;send&#39;, &#39;event&#39;, &#39;link&#39;, &#39;click&#39;, &#39;three_questions_drawer_nav&#39;, 1);" href="/three-questions.html">Three Questions To Ask Ourselves</a></li>
-            <li class=" slight-indent"><a onclick="ga(&#39;send&#39;, &#39;event&#39;, &#39;link&#39;, &#39;click&#39;, &#39;true_friendship_drawer_nav&#39;, 1);" href="/true-friendship.html">What Is True Friendship?</a></li>
-            <li class=" "><a onclick="ga(&#39;send&#39;, &#39;event&#39;, &#39;link&#39;, &#39;click&#39;, &#39;get_involved_drawer_drawer_nav&#39;, 1);" href="/get-involved.html">Get Involved</a></li>
-        </ul>
-        <a href="https://www.facebook.com/trianglejyg" class="sm-link" target="_blank" onclick="ga('send', 'event', 'link', 'click', 'join_facebook_drawer_nav', 1);"><span class="icon icon-sm fb"><i class="fa fa-facebook"></i></span>Join us on Facebook</a>
-
-    </nav>
-</header>
-
+?>
 
 <main class="site-body">
     <article class="topic pri-2">
@@ -130,7 +25,7 @@
                             </a>
                         </li>
                         <li>
-                            <a href="//www.facebook.com/sharer.php?u=https://www.upliftchapelboro.org/three-questions" target="_blank" class="sm-link" onclick="ga('send', 'event', 'button', 'click', 'share_via_facebook', 1);">
+                            <a href="/three-questions.php/www.facebook.com/sharer.php?u=https://www.upliftchapelboro.org/three-questions" target="_blank" class="sm-link" onclick="ga('send', 'event', 'button', 'click', 'share_via_facebook', 1);">
                                 <span class="icon icon-sm fb"><i class="fa fa-facebook-square"></i></span>
                             </a>
                         </li>
@@ -159,7 +54,7 @@
             <div class="section-inner">
                 <div class="fluidVidContainer">
                     <div class="fluidVidContainer-overlay ">
-                        <img src="/img/video-overlay-theroadtolife.jpg" alt="The Road of Life" class="video-thumb">
+                        <img src="img/video-overlay-theroadtolife.jpg" alt="The Road of Life" class="video-thumb">
                         <button class="btn_play js-vidPlay" data-vidID="139024343">
                             <span class="icon icon-play"><i class="fa fa-play"></i></span>
                             <span class="video-title">The Road of Life<span class="video-duration">2 min 31 sec</span></span>
@@ -183,7 +78,7 @@
             </div>
         </div>
         <figure class="content-image is-fullsize">
-            <img src="/img/topic-1-full.jpg" alt="">
+            <img src="img/topic-1-full.jpg" alt="">
         </figure>
         <section class="site-section" id="forces">
             <div class="section-inner">
@@ -206,7 +101,7 @@
                     </header>
                     <p>Many social forces are so pervasive and widespread that they can give the illusion that we have to make choices, even where there aren’t any to be made. Many of us feel torn between choosing a career that will bring personal success or one that will allow us to make a difference in our community. Do we continue the family business or go to college? Do we choose a path toward material wealth or one of spiritual well-being?</p>
                     <figure class="content-image is-halfsize">
-                        <img src="/img/topic-1-half.jpg" alt="">
+                        <img src="img/topic-1-half.jpg" alt="">
                     </figure>
                     <p>Perhaps these are not the questions that we should be asking ourselves. They might be choices that we don’t even have to make. We often see success defined by material wealth, something we’re encouraged to aim for at the expense of our spiritual well-being. Lying, cheating, and gossiping are all considered fair game in its pursuit. Or maybe we’re encouraged to pursue our personal dreams even at the expense of our communities, putting ourselves before others.</p>
                     <p class="clear">We believe there is another way. By being of service to others, even while we work and study, we are learning what personal and community development can look like if they are pursued jointly.</p>
@@ -231,7 +126,7 @@
                                 </a>
                             </li>
                             <li>
-                                <a href="//www.facebook.com/sharer.php?u=https://www.upliftchapelboro.org/three-questions" target="_blank" class="sm-link" onclick="ga('send', 'event', 'button', 'click', 'share_via_facebook', 1);">
+                                <a href="/three-questions.php/www.facebook.com/sharer.php?u=https://www.upliftchapelboro.org/three-questions" target="_blank" class="sm-link" onclick="ga('send', 'event', 'button', 'click', 'share_via_facebook', 1);">
                                     <span class="icon icon-sm fb"><i class="fa fa-facebook-square"></i></span>
                                 </a>
                             </li>
@@ -249,8 +144,8 @@
     <nav class="paging section-inner">
         <ul class="paging-items content-block">
             <li class="paging-item pri-1">
-                <a href="/true-friendship.html" class="paging-link" rel="prev">
-                    <img src="/img/topic-2-half.jpg" alt="" class="paging-img">
+                <a href="true-friendship" class="paging-link" rel="prev">
+                    <img src="img/topic-2-half.jpg" alt="" class="paging-img">
                     <div class="paging-content">
                         <h5 class="paging-heading">What is true friendship?</h5>
                         <span class="btn_clear">Read more <i class="fa fa-angle-double-right"></i></span>
@@ -258,8 +153,8 @@
                 </a>
             </li>
             <li class="paging-item pri-3">
-                <a href="/get-involved.html" class="paging-link" rel="next">
-                    <img src="/img/topic-3-half.jpg" alt="" class="paging-img">
+                <a href="get-involved" class="paging-link" rel="next">
+                    <img src="img/topic-3-half.jpg" alt="" class="paging-img">
                     <div class="paging-content">
                         <h5 class="paging-heading">Get involved</h5>
                         <span class="btn_clear">Read more <i class="fa fa-angle-double-right"></i></span>
@@ -270,55 +165,6 @@
     </nav>
 </main>
 
-<footer class="site-footer" id=get_involved>
-    <div class="section-inner">
-        <div class="site-footer-content">
-            <h6 class="site-footer-heading">About Uplift Chapelboro</h6>
-            <p>Serving the region for more than 10 years, the Junior Youth Spiritual Empowerment Program is a mentoring initiative that inspires young people, parents, and community members to work together toward a better world.</p>
-            <address class="site-footer-address">
-                1105 W NC HWY 54<br>
-                Chapel Hill, NC 27510<br>
-                Apt. D6<br><br>
-                <a href="mailto:trianglejyg@gmail.com" onclick="ga('send', 'event', 'link', 'click', 'email', 1);">trianglejyg@gmail.com</a>
-                <a href="tel:(356) 246-8926">(356) 246-8926</a>
-            </address>
-        </div>
-        <form class="form_contact" id="contactFormBottom">
-            <fieldset class="form-group">
-                <legend class="form-heading">Get Involved</legend>
-                <p class="form-intro">Want to know more? Drop us a note and we'll get in touch with all the details.</p>
-                <p class="form-message">We’ve received your inquiry and will respond to you within 24 hours. We look forward to connecting soon.</p>
-                <div class="form-item">
-                    <label for="contactFormBottom_name" class="form-item-label">Your name</label>
-                    <input id="contactFormBottom_name" name="contactFormBottom_name" type="text" class="form-item-field" placeholder="What’s your name?">
-                </div>
-                <div class="form-item is-hidden js-phone">
-                    <label for="contactFormBottom_phone" class="form-item-label">Phone Number*</label>
-                    <a href="#form" class="btn_formFieldSwitcher js-formFieldSwitcher" tabindex="-1" data-formID="contactFormBottom">or <span>Contact me by email</span></a>
-                    <input id="contactFormBottom_phone" name="contactFormBottom_phone" type="tel" class="form-item-field" placeholder="What’s your number? (123) 456-7890">
-                </div>
-                <div class="form-item is-hidden js-email">
-                    <label for="contactFormBottom_email" class="form-item-label">Email address*</label>
-                    <a href="#form" class="btn_formFieldSwitcher js-formFieldSwitcher" tabindex="-1" data-formID="contactFormBottom">or <span>Contact me by phone</span></a>
-                    <input id="contactFormBottom_email" name="contactFormBottom_email" type="email" class="form-item-field" placeholder="What’s your email?">
-                </div>
-                <button class="btn_form btn_contactFormBottom js-submitContactForm" data-formID="contactFormBottom">Contact me!</button>
-                <span class="form-note">* We will never share your information with third parties. <a href="/privacy-policy.html">Privacy policy</a></span>
-            </fieldset>
-        </form>
-
-        <a href="https://www.facebook.com/trianglejyg" class="sm-link" target="_blank" onclick="ga('send', 'event', 'link', 'click', 'join_facebook_footer', 1);"><span class="icon icon-sm fb"><i class="fa fa-facebook"></i></span>Join us on Facebook</a>
-
-        <small>© Copyright 2015. All rights reserved.</small>
-    </div>
-</footer>
-
-
-<noscript>
-    <p class="noJSMessage">YOU NEED JAVASCRIPT TO RUN THIS SITE. PLEASE ENABLE JAVASCRIPT IN YOUR INTERNET OPTIONS.</p>
-</noscript>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.0/TweenMax.min.js"></script>
-<script src="/js/application-a282e67abbf32b1dd127cc39806d43c90a5d39687472246a5db8cc1bc437d2a5.js"></script>
-
-</body>
-</html>
+<?php
+require_once('footer.php');
+?>

@@ -1396,7 +1396,7 @@ a:hover .icon-sm {
 }
 
 .triangle.tri_svg, .triangle.tri_img {
-  opacity: 0
+  opacity: 1
 }
 
 .section_intro .triangle.tri_svg {

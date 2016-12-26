@@ -23,7 +23,7 @@
                 <h1 class="intro-heading">
                     Inspiring young people, parents, and community members to work together toward a better world.
                 </h1>
-                <p><?= $intro_sentence_1?> <?= $intro_sentence_2 ?></p>
+                <p><?= $index_intro_sentence_1?> <?= $index_intro_sentence_2 ?></p>
                 <a href="<?= $facebook_page ?>" class="btn_clear" target="_blank">Join us on our Facebook Group <i class="fa fa-angle-double-right"></i></a>
             </div>
             <form class="form_contact" id="contactFormTop">
@@ -46,13 +46,14 @@
                         <input id="contactFormTop_email" name="contactFormTop_email" type="email" class="form-item-field" placeholder="What’s your email?">
                     </div>
                     <button class="btn_form btn_contactFormTop js-submitContactForm" data-formID="contactFormTop">Contact me!</button>
-                    <span class="form-note">* We will never share your information with third parties. <a href="/privacy-policy.html">Privacy policy</a></span>
+                    <span class="form-note">* We will never share your information with third parties. <a href="privacy-policy">Privacy policy</a></span>
                 </fieldset>
             </form>
 
         </div>
         <a href="#what_is_jysp" class="btn_scrollDown js-scrollToAnchor" data-gaValue="jump_to_section_home_what_is_jysp"><i class="fa fa-chevron-down"></i></a>
     </section>
+    <a name="what_is_jysep"></a>
     <section class="site-section section_about" id="what_is_jysp">
         <div class="section-inner">
             <div class="content-block">
@@ -72,6 +73,7 @@
             </div>
         </div>
     </section>
+    <a name="what_motivates_us"></a>
     <section class="site-section section_featured" id="what_motivates_us">
         <div class="section-inner">
             <div class="content-block">
@@ -96,7 +98,7 @@
                 </div>
             </div>
             <article class="feature pri-1 is-fullsize">
-                <a href="true-friendship.html">
+                <a href="true-friendship">
                     <figure class="feature-image" style="background-image:url(img/topic-2.jpg);"></figure>
                     <div class="feature-content">
                         <h3>What is true friendship?</h3>
@@ -106,7 +108,7 @@
                 </a>
             </article>
             <article class="feature pri-2 is-fullsize">
-                <a href="three-questions.html">
+                <a href="three-questions">
                     <div class="feature-content">
                         <h3>Three questions you need to ask yourself</h3>
                         <p>As the Junior Youth Spiritual Empowerment Program makes a positive impact throughout the globe, we are learning about young people’s potential to create powerful change.</p>

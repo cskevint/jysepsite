@@ -132,25 +132,6 @@ function fadeMapIconsIn() {
         zHasClass(e, "is-visible") || zAddClass(e, "is-visible")
     }
 }
-function triggerAnimHome() {
-    var e = zQ("#home_mosaic");
-    e && (TweenLite.set(e, {opacity: 1}), runAnim(zQA("#home_mosaic path"), !1, "0.8"), runAnim(zQA(".section_intro  .tri_img"), !1, "1"))
-}
-function triggerAnimAbout() {
-    var e = zQ("#about_mosaic");
-    e && (TweenLite.set(e, {opacity: 1}), runAnim(zQA("#about_mosaic path"), !1, "0.8"), runAnim(zQA(".section_about  .tri_img"), !1, "1"))
-}
-function triggerAnimTopic() {
-    var e = zQ("#topic_mosaic");
-    e && (TweenLite.set(e, {opacity: 1}), runAnim(zQA("#topic_mosaic path"), !0))
-}
-function runAnim(e, t, n) {
-    for (i = 0; i < e.length; i++) {
-        var o = e[i];
-        if (t)var n = o.getAttribute("opacity"); else var n = n;
-        TweenLite.set(o, {opacity: 0}), TweenLite.to(o, .6, {opacity: n}).delay(randomDelay())
-    }
-}
 function pinScrollDownButton() {
     if (zQ(".btn_scrollDown")) {
         var e = zQ(".btn_scrollDown");
@@ -168,5 +149,5 @@ var html = zQ("html"), aboveHeight = 200, phone_field = zQ(".js-phone"), email_f
 window.onscroll = function () {
     pinNav(), fadeMapIconsIn(), unpinScrollDownButton()
 }, window.onload = function () {
-    bindAnchorLinks(), doForm(), bindNavButton(), formFieldRandom(), formFieldSwitcher(), loadVideo(), triggerAnimHome(), triggerAnimAbout(), triggerAnimTopic(), pinScrollDownButton()
+    bindAnchorLinks(), doForm(), bindNavButton(), formFieldRandom(), formFieldSwitcher(), loadVideo(), pinScrollDownButton()
 };

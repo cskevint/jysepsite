@@ -40,7 +40,7 @@
                     Contact me!
                 </button>
                 <span class="form-note">* We will never share your information with third parties. <a
-                        href="privacy-policy.html">Privacy policy</a></span>
+                        href="privacy-policy">Privacy policy</a></span>
             </fieldset>
         </form>
 
@@ -55,10 +55,6 @@
 </footer>
 
 
-<noscript>
-    <p class="noJSMessage">YOU NEED JAVASCRIPT TO RUN THIS SITE. PLEASE ENABLE JAVASCRIPT IN YOUR INTERNET OPTIONS.</p>
-</noscript>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.0/TweenMax.min.js"></script>
 <script src="js/application.js"></script>
 
 </body>

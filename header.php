@@ -22,10 +22,12 @@
     <!--    <meta property="fb:admins" content="78200184" />-->
     <!--    <meta property="fb:admins" content="554440022" />-->
 
-    <meta property="og:url" content="<?= $website_url ?>"/>
-    <meta property="og:title" content="<?= $website_short_description ?>"/>
-    <meta property="og:site_name" content="<?= $website_short_title ?>"/>
-    <meta property="og:type" content="article"/>
+    <meta property="og:url" content="<?= $page_og_url ?>" />
+    <meta property="og:title" content="<?= $page_og_title ?>" />
+    <meta property="og:description" content="<?= $page_og_description ?>" />
+    <meta property="og:site_name" content="<?= $website_title ?>"/>
+    <meta property="og:image" content="<?= $page_og_image ?>" />
+    <meta property="og:type" content="article" />
 
     <meta name="mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-capable" content="yes">
@@ -107,7 +109,7 @@
     <a href="index.php" class="site-logo" title="<?= $website_title ?>">
         <img src="img/logo.png" alt="" class="icon">
     </a>
-    <a href="get-involved.html" class="btn_cta pri-1 js-scrollToAnchor">
+    <a href="get-involved" class="btn_cta pri-1 js-scrollToAnchor">
         Get involved
     </a>
     <a href="<?= $facebook_page ?>" class="sm-link" target="_blank">
@@ -119,21 +121,21 @@
     <button class="btn_showMobileNav js-showMobileNav"><span></span></button>
     <nav class="site-nav">
         <ul>
-            <li class="is-current"><a href="/">Home</a></li>
+            <li class="is-current"><a href="index">Home</a></li>
             <li>
-                <a href="#what_is_jysp" class="js-scrollToAnchor">What is the JYSEP?</a>
+                <a href="index#what_is_jysp" class="js-scrollToAnchor">What is the JYSEP?</a>
             </li>
             <li>
-                <a href="#what_motivates_us" class="js-scrollToAnchor">What Motivates Us</a>
+                <a href="index#what_motivates_us" class="js-scrollToAnchor">What Motivates Us</a>
             </li>
             <li class="slight-indent">
-                <a href="three-questions.html">Three Questions To Ask Ourselves</a>
+                <a href="three-questions">Three Questions To Ask Ourselves</a>
             </li>
             <li class="slight-indent">
-                <a href="true-friendship.html">What Is True Friendship?</a>
+                <a href="true-friendship">What Is True Friendship?</a>
             </li>
             <li class=" ">
-                <a href="get-involved.html">Get Involved</a>
+                <a href="get-involved">Get Involved</a>
             </li>
         </ul>
         <a href="<?= $facebook_page ?>" class="sm-link" target="_blank">
