@@ -20,9 +20,11 @@
                 <svg class="triangle tri_svg" id="home_mosaic" xmlns="http://www.w3.org/2000/svg" width="1735px" height="1311px" viewBox="0 0 1735 1311" version="1.1"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g transform="translate(-98.000000, -100.000000)" opacity="0.8"><g transform="translate(10.000000, 100.000000)"><g transform="translate(88.000000, 0.000000)"><path d="M1385.64675 326.517621L1214.2355 326.517621 1299.94113 164.160793 1385.64675 326.517621 1385.64675 326.517621Z" fill="#3ED6C0"/><path d="M1037.41126 655.741189L866 655.741189 951.705628 493.384361 1037.41126 655.741189 1037.41126 655.741189Z" fill="#E6E9EB"/><path d="M952.607792 493.384361L781.196537 493.384361 866.902165 331.027533 952.607792 493.384361 952.607792 493.384361Z" fill="#8ECC6A"/><path d="M172.294372 323.910084L0.883116883 323.910084 86.5887446 161.553256 172.294372 323.910084 172.294372 323.910084Z" fill="#8ECC6A"/><path d="M605.785281 488.874449L434.374026 488.874449 520.079654 326.517621 605.785281 488.874449 605.785281 488.874449Z" fill="#E6E9EB"/><path d="M344.705628 981.356828L173.294372 981.356828 259 819 344.705628 981.356828 344.705628 981.356828Z" fill="#FF004A"/><path d="M258 487.266912L86.5887446 487.266912 172.294372 324.910084 258 487.266912 258 487.266912Z" fill="#3ED6C0"/><path d="M1560.66667 326.517621L1389.25541 326.517621 1474.96104 164.160793 1560.66667 326.517621 1560.66667 326.517621Z" fill="#FF004A"/><path d="M1473.15671 162.553256L1301.74545 162.553256 1387.45108 0.196427803 1473.15671 162.553256 1473.15671 162.553256Z" fill="#E6E9EB"/><path d="M1472.25455 491.580396L1300.84329 491.580396 1386.54892 329.223568 1472.25455 491.580396 1472.25455 491.580396Z" fill="#56A0D3"/><path d="M1038.31342 329.223568L1209.72468 329.223568 1124.01905 491.580396 1038.31342 329.223568Z" fill="#F9A51B"/><path d="M610 490L781.411255 490 695.705628 652.356828 610 490Z" fill="#B791C3"/><path d="M260 490L431.411255 490 345.705628 652.356828 260 490Z" fill="#56A0D3"/><path d="M346.705628 654.356828L518.116883 654.356828 432.411255 816.713656 346.705628 654.356828Z" fill="#FBB749"/><path d="M345.668398 984.356828L517.079654 984.356828 431.374026 1146.71366 345.668398 984.356828Z" fill="#3ED6C0"/><path d="M258.962771 1148.71366L430.374026 1148.71366 344.668398 1311.07048 258.962771 1148.71366Z" fill="#FAD914"/><path d="M523.079654 326.517621L694.490909 326.517621 608.785281 488.874449 523.079654 326.517621Z" fill="#FF004A"/><path d="M258 161.321586L429.411255 161.321586 343.705628 323.678414 258 161.321586Z" fill="#FAD914"/><path d="M1124.01905 819L952.607792 819 1038.31342 656.643172 1124.01905 819 1124.01905 819Z" fill="#A575B4"/><path d="M1563.37316 328.321586L1734.78442 328.321586 1649.07879 490.678414 1563.37316 328.321586Z" fill="#71BF44"/></g></g></g></g></svg>
             </div>
             <div class="content-block">
-                <h1 class="intro-heading">Inspiring young people, parents, and community members to work together toward a better world.</h1>
+                <h1 class="intro-heading">
+                    Inspiring young people, parents, and community members to work together toward a better world.
+                </h1>
                 <p>The <strong>Junior Youth Spiritual Empowerment Program (JYSEP)</strong> is a global movement inspiring young people, parents, and community members to work together toward a better world. Over the past 10 years, the program has grown locally from being supported by a small group of youth to include over 200 young people mentoring throughout Chapel Hill, Carrboro, Durham, Cary, Raleigh, and many places in-between.</p>
-                <a href="https://www.facebook.com/trianglejyg" class="btn_clear" target="_blank" onclick="ga('send', 'event', 'link', 'click', 'join_facebook_for_updates', 1);">Join us on our Facebook Group <i class="fa fa-angle-double-right"></i></a>
+                <a href="<?= $facebook_page ?>" class="btn_clear" target="_blank">Join us on our Facebook Group <i class="fa fa-angle-double-right"></i></a>
             </div>
             <form class="form_contact" id="contactFormTop">
                 <fieldset class="form-group">
@@ -94,7 +96,7 @@
                 </div>
             </div>
             <article class="feature pri-1 is-fullsize">
-                <a href="/true-friendship.html">
+                <a href="true-friendship.html">
                     <figure class="feature-image" style="background-image:url(img/topic-2.jpg);"></figure>
                     <div class="feature-content">
                         <h3>What is true friendship?</h3>
@@ -104,7 +106,7 @@
                 </a>
             </article>
             <article class="feature pri-2 is-fullsize">
-                <a href="/three-questions.html">
+                <a href="three-questions.html">
                     <div class="feature-content">
                         <h3>Three questions you need to ask yourself</h3>
                         <p>As the Junior Youth Spiritual Empowerment Program makes a positive impact throughout the globe, we are learning about young people’s potential to create powerful change.</p>
@@ -113,7 +115,7 @@
                     <figure class="feature-image" style="background-image:url(img/topic-1.jpg);"></figure>
                 </a>
             </article>
-            <p class="note center clear">Get updates when new content is published: <a href="https://www.facebook.com/trianglejyg" class="btn_clear is-inline" target="_blank">Join us on Facebook <i class="fa fa-angle-double-right"></i></a></p>
+            <p class="note center clear">Get updates when new content is published: <a href="<?= $facebook_page ?>" class="btn_clear is-inline" target="_blank">Join us on Facebook <i class="fa fa-angle-double-right"></i></a></p>
         </div>
     </section>
 
