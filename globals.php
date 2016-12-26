@@ -14,4 +14,7 @@ $program_address = "30 N Grant St<br>San Mateo, CA 94401";
 $program_email = "sanmateojysep@gmail.com";
 $program_phone = "(650) 999-0019";
 
+$intro_sentence_1 = "The <strong>Junior Youth Spiritual Empowerment Program (JYSEP)</strong> is a global movement inspiring young people, parents, and community members to work together toward a better world.";
+$intro_sentence_2 = "Over the past 10 years, the program has grown locally from being supported by a small group of youth to include the participation of over 50 junior youth throughout San Mateo County.";
+
 ?>

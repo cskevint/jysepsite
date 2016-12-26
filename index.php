@@ -23,7 +23,7 @@
                 <h1 class="intro-heading">
                     Inspiring young people, parents, and community members to work together toward a better world.
                 </h1>
-                <p>The <strong>Junior Youth Spiritual Empowerment Program (JYSEP)</strong> is a global movement inspiring young people, parents, and community members to work together toward a better world. Over the past 10 years, the program has grown locally from being supported by a small group of youth to include over 200 young people mentoring throughout Chapel Hill, Carrboro, Durham, Cary, Raleigh, and many places in-between.</p>
+                <p><?= $intro_sentence_1?> <?= $intro_sentence_2 ?></p>
                 <a href="<?= $facebook_page ?>" class="btn_clear" target="_blank">Join us on our Facebook Group <i class="fa fa-angle-double-right"></i></a>
             </div>
             <form class="form_contact" id="contactFormTop">
