@@ -34,7 +34,7 @@ function contact_form($location) {
             <p class="form-message">We’ve received your inquiry and will respond to you within 24 hours. We look forward to connecting soon.</p>
             <div class="form-item">
                 <label for="name-<?=$location?>" class="form-item-label">Your name</label>
-                <input id="name-<?=$location?>" name="name" type="text" class="form-item-field" placeholder="What’s your name?">
+                <input id="name-<?=$location?>" name="name" type="text" class="form-item-field name" placeholder="What’s your name?">
             </div>
             <div class="form-item">
                 <label for="lastname-<?=$location?>" class="form-item-label">Your last name</label>

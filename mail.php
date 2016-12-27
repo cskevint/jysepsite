@@ -10,14 +10,15 @@ $to = $program_email;
 $subject = 'Contact Us';
 if(strlen($phone) > 0) {
     $body = "Phone: ".$phone;
-} else {
+} elseif(strlen($email) > 0) {
     $body = "Email: ".$email;
 }
 
-$from_header = "From: ".$website_short_title." <".$program_email.">\r\n";
+$from_header = "From: ".$name." <".$contact_from_email.">\r\n";
+$passed_honeypot = strlen($_REQUEST['lastname']) == 0;
 
 $result = array('success' => false);
-if($_REQUEST['lastname'] == '' && mail($to, $subject, $body, $from_header)) {
+if($passed_honeypot && strlen($body) > 0 && mail($to, $subject, $body, $from_header)) {
     $result = array('success' => true);
 }
 header('Content-type: application/json');

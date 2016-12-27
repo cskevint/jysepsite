@@ -165,11 +165,21 @@ $(function(){
             if($form.find('.lastname').val().length) {
                 return false;
             }
+            if($form.find('.name').val().length == 0) {
+                return false;
+            }
+            if($form.find('.phone').val().length == 0 && $form.find('.email').val().length == 0) {
+                return false;
+            }
+            if($form.find('.phone').val().length && !/^\(?(\d{3})\)?[- ]?(\d{3})[- ]?(\d{4})$/.test($form.find('.phone').val())) {
+                return false;
+            }
             $form.addClass('is-loading');
             $.post('mail', $(this).serialize(), function(response){
                 if(response.success) {
                     $form.addClass('is-success');
                     $form.find('.btn_form').text('Thanks!');
+                    $form[0].reset();
                 }
             });
             return false;

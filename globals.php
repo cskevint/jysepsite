@@ -14,6 +14,8 @@ $program_address = "30 N Grant St<br>San Mateo, CA 94401";
 $program_email = "sanmateojysep@gmail.com";
 $program_phone = "(650) 999-0019";
 
+$contact_from_email = "core@sanmateo.junioryouth.us";
+
 $page_og_url = $website_url;
 $page_og_title = $website_title;
 $page_og_description = $website_short_description;
