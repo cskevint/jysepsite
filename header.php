@@ -42,35 +42,34 @@ require_once('functions.php');
     <!--    <meta name="msapplication-starturl" content="--><? //= $website_url ?><!--">-->
     <!--    <meta name="theme-color" content="#FF0000">-->
     <!--    <meta name="msapplication-TileColor" content="#CC0000">-->
-    <!--    <meta name="msapplication-TileImage" content="/mstile-144x144.png?v=5AABvr8G2m">-->
-    <!--    <meta name="msapplication-config" content="/browserconfig.xml?v=5AABvr8G2m">-->
+    <!--    <meta name="msapplication-TileImage" content="/mstile-144x144.png">-->
+    <!--    <meta name="msapplication-config" content="/browserconfig.xml">-->
 
-    <!--    <link rel="manifest" href="/manifest.json?v=5AABvr8G2m">-->
+    <!--    <link rel="manifest" href="manifest.json">-->
 
-    <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon.png">
-    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="/apple-touch-icon-precomposed.png">
+    <link rel="apple-touch-icon" sizes="57x57" href="apple-touch-icon.png">
+    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="apple-touch-icon-precomposed.png">
 
-    <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57-precomposed.png?v=5AABvr8G2m">
-    <link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon-60x60-precomposed.png?v=5AABvr8G2m">
-    <link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72-precomposed.png?v=5AABvr8G2m">
-    <link rel="apple-touch-icon" sizes="76x76" href="/apple-touch-icon-76x76-precomposed.png?v=5AABvr8G2m">
-    <link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114x114-precomposed.png?v=5AABvr8G2m">
-    <link rel="apple-touch-icon" sizes="120x120" href="/apple-touch-icon-120x120-precomposed.png?v=5AABvr8G2m">
-    <link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144x144-precomposed.png?v=5AABvr8G2m">
-    <link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon-152x152-precomposed.png?v=5AABvr8G2m">
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon-180x180-precomposed.png?v=5AABvr8G2m">
+    <link rel="apple-touch-icon" sizes="57x57" href="apple-touch-icon-57x57-precomposed.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="apple-touch-icon-60x60-precomposed.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="apple-touch-icon-72x72-precomposed.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="apple-touch-icon-76x76-precomposed.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="apple-touch-icon-114x114-precomposed.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="apple-touch-icon-120x120-precomposed.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="apple-touch-icon-144x144-precomposed.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="apple-touch-icon-152x152-precomposed.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon-180x180-precomposed.png">
 
-    <link rel="icon" type="image/png" href="/favicon-16x16.png?v=5AABvr8G2m" sizes="16x16">
-    <link rel="icon" type="image/png" href="/favicon-32x32.png?v=5AABvr8G2m" sizes="32x32">
-    <link rel="icon" type="image/png" href="/favicon-96x96.png?v=5AABvr8G2m" sizes="96x96">
-    <link rel="icon" type="image/png" href="/favicon-194x194.png?v=5AABvr8G2m" sizes="194x194">
+    <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16">
+    <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="favicon-194x194.png" sizes="194x194">
 
-    <link rel="icon" type="image/png" href="/android-chrome-192x192.png?v=5AABvr8G2m" sizes="192x192">
+    <link rel="icon" type="image/png" href="android-chrome-192x192.png" sizes="192x192">
 
-    <link rel="shortcut icon" href="/favicon.ico?v=5AABvr8G2m">
+    <link rel="shortcut icon" href="favicon.ico">
 
-    <link href='https://fonts.googleapis.com/css?family=Hind:400,300,500,600,700|Lora:400,400italic' rel='stylesheet'
-          type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Hind:400,300,500,600,700|Lora:400,400italic' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
     <link rel="stylesheet" media="all" href="css/application.css"/>
     <!--    <script>(function() {-->
@@ -104,15 +103,17 @@ require_once('functions.php');
     <!--    window._fbq.push(['track', 'PixelInitialized', {}]);-->
     <!--    </script>-->
     <!--    <noscript><img height="1" width="1" alt="" style="display:none" src="https://www.facebook.com/tr?id=550390798443501&amp;ev=PixelInitialized" /></noscript>-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/zepto/1.2.0/zepto.min.js" defer></script>
+    <script src="js/application.js" defer></script>
 
 </head>
 <body class="c-home is-index">
 
 <header class="site-header">
-    <a href="index.php" class="site-logo" title="<?= $website_title ?>">
+    <a href="index" class="site-logo" title="<?= $website_title ?>">
         <img src="img/logo.png" alt="" class="icon">
     </a>
-    <a href="get-involved" class="btn_cta pri-1">
+    <a href="#get-involved" class="btn_cta pri-1">
         Get involved
     </a>
     <a href="<?= $facebook_page ?>" class="sm-link" target="_blank">
@@ -131,13 +132,13 @@ require_once('functions.php');
             <li>
                 <a href="index#what_motivates_us" class="">What Motivates Us</a>
             </li>
-            <li class="slight-indent">
+            <li class="slight-indent" <?=hide_page($three_questions)?>>
                 <a href="three-questions">Three Questions To Ask Ourselves</a>
             </li>
-            <li class="slight-indent">
+            <li class="slight-indent" <?=hide_page($true_friendship)?>>
                 <a href="true-friendship">What Is True Friendship?</a>
             </li>
-            <li class=" ">
+            <li class="" <?=hide_page($get_involved)?>>
                 <a href="get-involved">Get Involved</a>
             </li>
         </ul>

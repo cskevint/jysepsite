@@ -144,3 +144,36 @@ window.onscroll = function () {
 }, window.onload = function () {
     doForm(), bindNavButton(), formFieldRandom(), formFieldSwitcher(), loadVideo(), pinScrollDownButton()
 };
+
+$(function(){
+    function setupForm() {
+        $('.lastname').closest('.form-item').hide();
+        $('.phone').closest('.form-item').find('.btn_formFieldSwitcher').click(function(e){
+            $('.phone').closest('.form-item').hide();
+            $('.email').closest('.form-item').show();
+            e.preventDefault();
+            return false;
+        });
+        $('.email').closest('.form-item').hide().find('.btn_formFieldSwitcher').click(function(e){
+            $('.email').closest('.form-item').hide();
+            $('.phone').closest('.form-item').show();
+            e.preventDefault();
+            return false;
+        });
+        $('form.form_contact').submit(function(){
+            var $form = $(this);
+            if($form.find('.lastname').val().length) {
+                return false;
+            }
+            $form.addClass('is-loading');
+            $.post('mail', $(this).serialize(), function(response){
+                if(response.success) {
+                    $form.addClass('is-success');
+                    $form.find('.btn_form').text('Thanks!');
+                }
+            });
+            return false;
+        });
+    }
+    setupForm();
+});

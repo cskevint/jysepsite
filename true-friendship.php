@@ -23,7 +23,7 @@ require_once('header.php');
                 <h1 class="topic-heading">What is True Friendship?</h1>
                 <span class="metadata">Posted October 16, 2015 - 4 min read</span>
 
-                <?= share_this($page); ?>
+                <?= share_this($page) ?>
 
                 <div class="triangles">
                     <svg class="triangle tri_svg" id="topic_mosaic" xmlns="http://www.w3.org/2000/svg" width="591" height="413" viewBox="0 0 591 413" version="1.1">
@@ -124,14 +124,14 @@ require_once('header.php');
                     </figure>
                     <p>As mentors of the Junior Youth Spiritual Empowerment Program, we don’t only assist teens. Our groups meet regularly to discuss the challenges everyone in our neighborhood faces. Then we reach out to adults, teenagers, and children to resolve the problems. Volunteering with our neighbors creates a sense of shared purpose that allows us to become close friends. The obstacles in our lives feel temporary and we feel like we can improve our community. We feel hopeful because obstacles become opportunities for us to come together and discover how to overcome them. In this manner, we work slowly but steadily towards a better future for everyone in the neighborhood.</p>
 
-                    <?= share_this($page); ?>
+                    <?= share_this($page) ?>
                 </div>
             </div>
         </section>
     </article>
     <nav class="paging section-inner">
         <ul class="paging-items content-block">
-            <li class="paging-item pri-2">
+            <li class="paging-item pri-2" <?=hide_page($three_questions)?>>
                 <a href="three-questions" class="paging-link" rel="prev">
                     <img src="img/topic-1-half.jpg" alt="" class="paging-img">
                     <div class="paging-content">
@@ -140,7 +140,7 @@ require_once('header.php');
                     </div>
                 </a>
             </li>
-            <li class="paging-item pri-3">
+            <li class="paging-item pri-3" <?=hide_page($get_involved)?>>
                 <a href="get-involved" class="paging-link" rel="next">
                     <img src="img/topic-3-half.jpg" alt="" class="paging-img">
                     <div class="paging-content">

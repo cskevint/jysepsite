@@ -28,29 +28,7 @@ require_once('header.php');
                 <p><?= $index_intro_sentence_1?> <?= $index_intro_sentence_2 ?></p>
                 <a href="<?= $facebook_page ?>" class="btn_clear" target="_blank">Join us on our Facebook Group <i class="fa fa-angle-double-right"></i></a>
             </div>
-            <form class="form_contact" id="contactFormTop">
-                <fieldset class="form-group">
-                    <legend class="form-heading">Get Involved</legend>
-                    <p class="form-intro">Want to know more? Drop us a note and we'll get in touch with all the details.</p>
-                    <p class="form-message">We’ve received your inquiry and will respond to you within 24 hours. We look forward to connecting soon.</p>
-                    <div class="form-item">
-                        <label for="contactFormTop_name" class="form-item-label">Your name</label>
-                        <input id="contactFormTop_name" name="contactFormTop_name" type="text" class="form-item-field" placeholder="What’s your name?">
-                    </div>
-                    <div class="form-item is-hidden js-phone">
-                        <label for="contactFormTop_phone" class="form-item-label">Phone Number*</label>
-                        <a href="#form" class="btn_formFieldSwitcher js-formFieldSwitcher" tabindex="-1" data-formID="contactFormTop">or <span>Contact me by email</span></a>
-                        <input id="contactFormTop_phone" name="contactFormTop_phone" type="tel" class="form-item-field" placeholder="What’s your number? (123) 456-7890">
-                    </div>
-                    <div class="form-item is-hidden js-email">
-                        <label for="contactFormTop_email" class="form-item-label">Email address*</label>
-                        <a href="#form" class="btn_formFieldSwitcher js-formFieldSwitcher" tabindex="-1" data-formID="contactFormTop">or <span>Contact me by phone</span></a>
-                        <input id="contactFormTop_email" name="contactFormTop_email" type="email" class="form-item-field" placeholder="What’s your email?">
-                    </div>
-                    <button class="btn_form btn_contactFormTop js-submitContactForm" data-formID="contactFormTop">Contact me!</button>
-                    <span class="form-note">* We will never share your information with third parties. <a href="privacy-policy">Privacy policy</a></span>
-                </fieldset>
-            </form>
+            <?= contact_form('top') ?>
 
         </div>
         <a href="#what_is_jysp" class="btn_scrollDown"></i></a>
@@ -99,7 +77,7 @@ require_once('header.php');
                     </button>
                 </div>
             </div>
-            <article class="feature pri-1 is-fullsize">
+            <article class="feature pri-1 is-fullsize" <?=hide_page($true_friendship)?>>
                 <a href="true-friendship">
                     <figure class="feature-image" style="background-image:url(img/topic-2.jpg);"></figure>
                     <div class="feature-content">
@@ -109,7 +87,7 @@ require_once('header.php');
                     </div>
                 </a>
             </article>
-            <article class="feature pri-2 is-fullsize">
+            <article class="feature pri-2 is-fullsize" <?=hide_page($three_questions)?>>
                 <a href="three-questions">
                     <div class="feature-content">
                         <h3>Three questions you need to ask yourself</h3>

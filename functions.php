@@ -25,6 +25,48 @@ function share_this($page) {
 <?php
 }
 
+function contact_form($location) {
+?>
+    <form class="form_contact">
+        <fieldset class="form-group">
+            <legend class="form-heading">Get Involved</legend>
+            <p class="form-intro">Want to know more? Drop us a note and we'll get in touch with all the details.</p>
+            <p class="form-message">We’ve received your inquiry and will respond to you within 24 hours. We look forward to connecting soon.</p>
+            <div class="form-item">
+                <label for="name-<?=$location?>" class="form-item-label">Your name</label>
+                <input id="name-<?=$location?>" name="name" type="text" class="form-item-field" placeholder="What’s your name?">
+            </div>
+            <div class="form-item">
+                <label for="lastname-<?=$location?>" class="form-item-label">Your last name</label>
+                <input id="lastname-<?=$location?>" name="lastname" type="text" class="form-item-field lastname" placeholder="What’s your last name?">
+            </div>
+            <div class="form-item">
+                <label for="phone-<?=$location?>" class="form-item-label">Phone Number*</label>
+                <a href="#" class="btn_formFieldSwitcher" tabindex="-1">or <span>Contact me by email</span></a>
+                <input id="phone-<?=$location?>" name="phone" type="tel" class="form-item-field phone" placeholder="What’s your number? (123) 456-7890">
+            </div>
+            <div class="form-item">
+                <label for="email-<?=$location?>" class="form-item-label">Email address*</label>
+                <a href="#" class="btn_formFieldSwitcher" tabindex="-1">or <span>Contact me by phone</span></a>
+                <input id="email-<?=$location?>" name="email" type="email" class="form-item-field email" placeholder="What’s your email?">
+            </div>
+            <button type="submit" class="btn_form">Contact me!</button>
+            <span class="form-note">* We will never share your information with third parties. <a href="privacy-policy">Privacy policy</a></span>
+        </fieldset>
+    </form>
+<?php
+}
+
+?>
+<?php
+
+function hide_page($value) {
+    if(!$value) {
+        return "style='display:none;'";
+    }
+    return "";
+}
+
 ?>
 
 

@@ -22,4 +22,14 @@ $page_og_image = "";
 $index_intro_sentence_1 = "The <strong>Junior Youth Spiritual Empowerment Program (JYSEP)</strong> is a global movement inspiring young people, parents, and community members to work together toward a better world.";
 $index_intro_sentence_2 = "Over the past 10 years, the program has grown locally from being supported by a small group of youth to include the participation of over 50 junior youth throughout San Mateo County.";
 
+$true_friendship = false;
+$three_questions = false;
+$get_involved = true;
+
+if($_REQUEST['admin'] == 'true') {
+    $true_friendship = true;
+    $three_questions = true;
+    $get_involved = true;
+}
+
 ?>
