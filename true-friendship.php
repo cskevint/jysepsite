@@ -1,9 +1,16 @@
 <?php
 
-$page_og_url = "http://sanmateo.junioryouth.us/true-friendship";
-$page_og_title = "What is True Friendship?";
-$page_og_description = "Friendships are at the core of the Junior Youth Spiritual Empowerment Program. We would like to share some of the lessons we’ve learned over the years.";
-$page_og_image = "img/topic-2-full_fb.jpg.jpg";
+$page = array(
+    'url' => "http://sanmateo.junioryouth.us/true-friendship",
+    'title' => "What is True Friendship?",
+    'description' => "Friendships are at the core of the Junior Youth Spiritual Empowerment Program. We would like to share some of the lessons we’ve learned over the years.",
+    'image' => "img/topic-2-full_fb.jpg"
+);
+
+$page_og_url = $page['url'];
+$page_og_title = $page['title'];
+$page_og_description = $page['description'];
+$page_og_image = $page['image'];
 
 require_once('header.php');
 
@@ -16,28 +23,34 @@ require_once('header.php');
                 <h1 class="topic-heading">What is True Friendship?</h1>
                 <span class="metadata">Posted October 16, 2015 - 4 min read</span>
 
-                <div class="sm-container">
-                    <h6 class="sm-heading">Share this</h6>
-                    <ul class="sm-links">
-                        <li>
-                            <a href="http://twitter.com/share?url=https://www.upliftchapelboro.org/true-friendship&amp;text=%22What is True Friendship?%22 by Uplift Chapelboro" target="_blank" class="sm-link" onclick="ga('send', 'event', 'button', 'click', 'share_via_twitter', 1);">
-                                <span class="icon icon-sm tw"><i class="fa fa-twitter"></i></span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="/true-friendship.php/www.facebook.com/sharer.php?u=https://www.upliftchapelboro.org/true-friendship" target="_blank" class="sm-link" onclick="ga('send', 'event', 'button', 'click', 'share_via_facebook', 1);">
-                                <span class="icon icon-sm fb"><i class="fa fa-facebook-square"></i></span>
-                            </a>
-                        </li>
-                        <li>
-                            <a class="sm-link" onclick="ga(&#39;send&#39;, &#39;event&#39;, &#39;button&#39;, &#39;click&#39;, &#39;share_via_email&#39;, 1);" href="mailto:?body=Friendships%20are%20essential%20to%20creating%20better%20communities.%20But%20in%20many%20neighborhoods%2C%20friendships%20have%20eroded%20and%20we%20barely%20know%20our%20neighbors.%20Most%20people%20will%20agree%20that%20things%20must%20change...%20https%3A%2F%2Fwww.upliftchapelboro.org%2Ftrue-friendship&amp;subject=What%20is%20True%20Friendship%3F">
-                                <span class="icon icon-sm em"><i class="fa fa-envelope"></i></span>
-                            </a>    </li>
-                    </ul>
-                </div>
+                <?= share_this($page); ?>
 
                 <div class="triangles">
-                    <svg class="triangle tri_svg" id="topic_mosaic" xmlns="http://www.w3.org/2000/svg" width="591" height="413" viewBox="0 0 591 413" version="1.1"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g transform="translate(-209.000000, -244.000000)" class="fill"><g transform="translate(504.500000, 450.500000) scale(-1, 1) translate(-504.500000, -450.500000) translate(209.000000, 244.000000)"><path d="M441.91 136.97L369.03 136.97 405.47 68.86 441.91 136.97 441.91 136.97Z" opacity="0.2"/><path d="M257.41 206.07L184.53 206.07 220.97 137.97 257.41 206.07 257.41 206.07Z" opacity="0.2"/><path d="M184.53 206.07L111.65 206.07 148.09 137.97 184.53 206.07 184.53 206.07Z" opacity="0.2"/><path d="M293.85 275.07L220.97 275.07 257.41 206.96 293.85 275.07 293.85 275.07Z" opacity="0.2"/><path d="M590.2 137.05L517.32 137.05 553.76 68.95 590.2 137.05 590.2 137.05Z" opacity="0.5"/><path d="M479.12 68.19L406.24 68.19 442.68 0.08 479.12 68.19 479.12 68.19Z" opacity="0.2"/><path d="M478.73 206.21L405.85 206.21 442.29 138.1 478.73 206.21 478.73 206.21Z" opacity="0.5"/><path d="M442.59 137.05L479.03 68.95 515.47 137.05 442.59 137.05Z" opacity="0.8"/><path d="M258.56 206.96L331.44 206.96 295 275.07 258.56 206.96Z" opacity="0.8"/><path d="M111.65 206.96L184.53 206.96 148.09 275.07 111.65 206.96Z" opacity="0.8"/><path d="M294.85 137.86L367.73 137.86 331.29 205.96 294.85 137.86Z" opacity="0.5"/><path d="M73.91 136.97L146.79 136.97 110.35 205.07 73.91 136.97Z" opacity="0.5"/><path d="M259.41 344.55L332.29 344.55 295.85 412.65 259.41 344.55Z" opacity="0.5"/><path d="M331.67 343.55L258.79 343.55 295.23 275.44 331.67 343.55 331.67 343.55Z" opacity="0.8"/><path d="M72.91 136.29L0.03 136.29 36.47 68.19 72.91 136.29 72.91 136.29Z" opacity="0.8"/><path d="M517.47 137.72L590.35 137.72 553.91 205.83 517.47 137.72Z" opacity="0.2"/><path d="M0.03 137.86L72.91 137.86 36.47 205.96 0.03 137.86Z" opacity="0.2"/></g></g></g></svg>
+                    <svg class="triangle tri_svg" id="topic_mosaic" xmlns="http://www.w3.org/2000/svg" width="591" height="413" viewBox="0 0 591 413" version="1.1">
+                        <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                            <g transform="translate(-209.000000, -244.000000)" class="fill">
+                                <g transform="translate(504.500000, 450.500000) scale(-1, 1) translate(-504.500000, -450.500000) translate(209.000000, 244.000000)">
+                                    <path d="M441.91 136.97L369.03 136.97 405.47 68.86 441.91 136.97 441.91 136.97Z" opacity="0.2"/>
+                                    <path d="M257.41 206.07L184.53 206.07 220.97 137.97 257.41 206.07 257.41 206.07Z" opacity="0.2"/>
+                                    <path d="M184.53 206.07L111.65 206.07 148.09 137.97 184.53 206.07 184.53 206.07Z" opacity="0.2"/>
+                                    <path d="M293.85 275.07L220.97 275.07 257.41 206.96 293.85 275.07 293.85 275.07Z" opacity="0.2"/>
+                                    <path d="M590.2 137.05L517.32 137.05 553.76 68.95 590.2 137.05 590.2 137.05Z" opacity="0.5"/>
+                                    <path d="M479.12 68.19L406.24 68.19 442.68 0.08 479.12 68.19 479.12 68.19Z" opacity="0.2"/>
+                                    <path d="M478.73 206.21L405.85 206.21 442.29 138.1 478.73 206.21 478.73 206.21Z" opacity="0.5"/>
+                                    <path d="M442.59 137.05L479.03 68.95 515.47 137.05 442.59 137.05Z" opacity="0.8"/>
+                                    <path d="M258.56 206.96L331.44 206.96 295 275.07 258.56 206.96Z" opacity="0.8"/>
+                                    <path d="M111.65 206.96L184.53 206.96 148.09 275.07 111.65 206.96Z" opacity="0.8"/>
+                                    <path d="M294.85 137.86L367.73 137.86 331.29 205.96 294.85 137.86Z" opacity="0.5"/>
+                                    <path d="M73.91 136.97L146.79 136.97 110.35 205.07 73.91 136.97Z" opacity="0.5"/>
+                                    <path d="M259.41 344.55L332.29 344.55 295.85 412.65 259.41 344.55Z" opacity="0.5"/>
+                                    <path d="M331.67 343.55L258.79 343.55 295.23 275.44 331.67 343.55 331.67 343.55Z" opacity="0.8"/>
+                                    <path d="M72.91 136.29L0.03 136.29 36.47 68.19 72.91 136.29 72.91 136.29Z" opacity="0.8"/>
+                                    <path d="M517.47 137.72L590.35 137.72 553.91 205.83 517.47 137.72Z" opacity="0.2"/>
+                                    <path d="M0.03 137.86L72.91 137.86 36.47 205.96 0.03 137.86Z" opacity="0.2"/>
+                                </g>
+                            </g>
+                        </g>
+                    </svg>
                 </div>
 
             </div>
@@ -48,7 +61,7 @@ require_once('header.php');
                     <p>Friendships are essential to creating better communities. But in many neighborhoods, friendships have eroded and we barely know our neighbors. Most people will agree that things must change; however, change is not easy. In the face of obstacles, it’s easy to give up.</p>
                     <p>This is where friends step in.</p>
                     <p>How many times have you avoided crisis or accomplished something you thought impossible thanks to the support of a friend? Our friends can help us unlock the potential to create powerful change in our communities despite the obstacles that might come in our way.</p>
-                    <a href="#articleStart" class="btn_clear js-scrollToAnchor" data-gaValue="jump_to_section_continue_below">Continues below <i class="fa fa-angle-down"></i></a>
+                    <a href="#articleStart" class="btn_clear"></i></a>
                 </div>
             </div>
         </section>
@@ -73,8 +86,8 @@ require_once('header.php');
             <div class="menu_jumpto">
                 <h3 class="jumpto-heading">Jump to</h3>
                 <ul class="jumpto-items">
-                    <li class="jumpto-item"><a href="#service" class="jumpto-link js-scrollToAnchor" data-gaValue="jump_to_section_friendship_and_service">Friendship and Service</a></li>
-                    <li class="jumpto-item"><a href="#neighborhood" class="jumpto-link js-scrollToAnchor" data-gaValue="jump_to_section_neighborhood">A Neighborhood of Friends</a></li>
+                    <li class="jumpto-item"><a href="#service" class="jumpto-link">Friendship and Service</a></li>
+                    <li class="jumpto-item"><a href="#neighborhood" class="jumpto-link">A Neighborhood of Friends</a></li>
                 </ul>
             </div>
         </div>
@@ -111,26 +124,7 @@ require_once('header.php');
                     </figure>
                     <p>As mentors of the Junior Youth Spiritual Empowerment Program, we don’t only assist teens. Our groups meet regularly to discuss the challenges everyone in our neighborhood faces. Then we reach out to adults, teenagers, and children to resolve the problems. Volunteering with our neighbors creates a sense of shared purpose that allows us to become close friends. The obstacles in our lives feel temporary and we feel like we can improve our community. We feel hopeful because obstacles become opportunities for us to come together and discover how to overcome them. In this manner, we work slowly but steadily towards a better future for everyone in the neighborhood.</p>
 
-                    <div class="sm-container">
-                        <h6 class="sm-heading">Share this</h6>
-                        <ul class="sm-links">
-                            <li>
-                                <a href="http://twitter.com/share?url=https://www.upliftchapelboro.org/true-friendship&amp;text=%22What is True Friendship?%22 by Uplift Chapelboro" target="_blank" class="sm-link" onclick="ga('send', 'event', 'button', 'click', 'share_via_twitter', 1);">
-                                    <span class="icon icon-sm tw"><i class="fa fa-twitter"></i></span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="/true-friendship.php/www.facebook.com/sharer.php?u=https://www.upliftchapelboro.org/true-friendship" target="_blank" class="sm-link" onclick="ga('send', 'event', 'button', 'click', 'share_via_facebook', 1);">
-                                    <span class="icon icon-sm fb"><i class="fa fa-facebook-square"></i></span>
-                                </a>
-                            </li>
-                            <li>
-                                <a class="sm-link" onclick="ga(&#39;send&#39;, &#39;event&#39;, &#39;button&#39;, &#39;click&#39;, &#39;share_via_email&#39;, 1);" href="mailto:?body=Friendships%20are%20essential%20to%20creating%20better%20communities.%20But%20in%20many%20neighborhoods%2C%20friendships%20have%20eroded%20and%20we%20barely%20know%20our%20neighbors.%20Most%20people%20will%20agree%20that%20things%20must%20change...%20https%3A%2F%2Fwww.upliftchapelboro.org%2Ftrue-friendship&amp;subject=What%20is%20True%20Friendship%3F">
-                                    <span class="icon icon-sm em"><i class="fa fa-envelope"></i></span>
-                                </a>    </li>
-                        </ul>
-                    </div>
-
+                    <?= share_this($page); ?>
                 </div>
             </div>
         </section>

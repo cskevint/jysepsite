@@ -1,4 +1,6 @@
-<? require_once('header.php'); ?>
+<?php
+require_once('header.php');
+?>
 
 <main class="site-body">
     <section class="site-section section_intro">
@@ -51,7 +53,7 @@
             </form>
 
         </div>
-        <a href="#what_is_jysp" class="btn_scrollDown js-scrollToAnchor" data-gaValue="jump_to_section_home_what_is_jysp"><i class="fa fa-chevron-down"></i></a>
+        <a href="#what_is_jysp" class="btn_scrollDown"></i></a>
     </section>
     <a name="what_is_jysep"></a>
     <section class="site-section section_about" id="what_is_jysp">

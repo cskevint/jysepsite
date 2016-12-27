@@ -1,9 +1,16 @@
 <?php
 
-$page_og_url = "http://sanmateo.junioryouth.us/three-questions";
-$page_og_title = "Three questions you need to ask yourself";
-$page_og_description = "We have a lot in common with young people all over the world, even though our cultures, backgrounds, and personalities may be different. One of our most important similarities is our readiness to make a change in the world. But before we can do that, we need to take a look at our own lives. Here are three questions to help you examine how the choices you make can contribute to social progress. So, go ahead and think about them or talk them over with a friend.";
-$page_og_image = "img/topic-1-full_fb.jpg";
+$page = array(
+    'url' => "http://sanmateo.junioryouth.us/three-questions",
+    'title' => "Three questions you need to ask yourself",
+    'description' => "We have a lot in common with young people all over the world, even though our cultures, backgrounds, and personalities may be different. One of our most important similarities is our readiness to make a change in the world. But before we can do that, we need to take a look at our own lives. Here are three questions to help you examine how the choices you make can contribute to social progress. So, go ahead and think about them or talk them over with a friend.",
+    'image' => "img/topic-1-full_fb.jpg"
+);
+
+$page_og_url = $page['url'];
+$page_og_title = $page['title'];
+$page_og_description = $page['description'];
+$page_og_image = $page['image'];
 
 require_once('header.php');
 
@@ -16,25 +23,7 @@ require_once('header.php');
                 <h1 class="topic-heading">Three questions you need to ask yourself</h1>
                 <span class="metadata">Posted September 19, 2015 - 3 min read</span>
 
-                <div class="sm-container">
-                    <h6 class="sm-heading">Share this</h6>
-                    <ul class="sm-links">
-                        <li>
-                            <a href="http://twitter.com/share?url=https://www.upliftchapelboro.org/three-questions&amp;text=%22Three questions you need to ask yourself%22 by Uplift Chapelboro" target="_blank" class="sm-link" onclick="ga('send', 'event', 'button', 'click', 'share_via_twitter', 1);">
-                                <span class="icon icon-sm tw"><i class="fa fa-twitter"></i></span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="/three-questions.php/www.facebook.com/sharer.php?u=https://www.upliftchapelboro.org/three-questions" target="_blank" class="sm-link" onclick="ga('send', 'event', 'button', 'click', 'share_via_facebook', 1);">
-                                <span class="icon icon-sm fb"><i class="fa fa-facebook-square"></i></span>
-                            </a>
-                        </li>
-                        <li>
-                            <a class="sm-link" onclick="ga(&#39;send&#39;, &#39;event&#39;, &#39;button&#39;, &#39;click&#39;, &#39;share_via_email&#39;, 1);" href="mailto:?body=Here%20are%20the%20three%20questions%20to%20help%20you%20examine%20how%20the%20choices%20you%20make%20can%20contribute%20to%20social%20progress.%20https%3A%2F%2Fwww.upliftchapelboro.org%2Fthree-questions&amp;subject=Three%20questions%20you%20need%20to%20ask%20yourself">
-                                <span class="icon icon-sm em"><i class="fa fa-envelope"></i></span>
-                            </a>    </li>
-                    </ul>
-                </div>
+                <?= share_this($page); ?>
 
                 <div class="triangles">
                     <svg class="triangle tri_svg" id="topic_mosaic" xmlns="http://www.w3.org/2000/svg" width="591" height="413" viewBox="0 0 591 413" version="1.1"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g transform="translate(-209.000000, -244.000000)" class="fill"><g transform="translate(504.500000, 450.500000) scale(-1, 1) translate(-504.500000, -450.500000) translate(209.000000, 244.000000)"><path d="M441.91 136.97L369.03 136.97 405.47 68.86 441.91 136.97 441.91 136.97Z" opacity="0.2"/><path d="M257.41 206.07L184.53 206.07 220.97 137.97 257.41 206.07 257.41 206.07Z" opacity="0.2"/><path d="M184.53 206.07L111.65 206.07 148.09 137.97 184.53 206.07 184.53 206.07Z" opacity="0.2"/><path d="M293.85 275.07L220.97 275.07 257.41 206.96 293.85 275.07 293.85 275.07Z" opacity="0.2"/><path d="M590.2 137.05L517.32 137.05 553.76 68.95 590.2 137.05 590.2 137.05Z" opacity="0.5"/><path d="M479.12 68.19L406.24 68.19 442.68 0.08 479.12 68.19 479.12 68.19Z" opacity="0.2"/><path d="M478.73 206.21L405.85 206.21 442.29 138.1 478.73 206.21 478.73 206.21Z" opacity="0.5"/><path d="M442.59 137.05L479.03 68.95 515.47 137.05 442.59 137.05Z" opacity="0.8"/><path d="M258.56 206.96L331.44 206.96 295 275.07 258.56 206.96Z" opacity="0.8"/><path d="M111.65 206.96L184.53 206.96 148.09 275.07 111.65 206.96Z" opacity="0.8"/><path d="M294.85 137.86L367.73 137.86 331.29 205.96 294.85 137.86Z" opacity="0.5"/><path d="M73.91 136.97L146.79 136.97 110.35 205.07 73.91 136.97Z" opacity="0.5"/><path d="M259.41 344.55L332.29 344.55 295.85 412.65 259.41 344.55Z" opacity="0.5"/><path d="M331.67 343.55L258.79 343.55 295.23 275.44 331.67 343.55 331.67 343.55Z" opacity="0.8"/><path d="M72.91 136.29L0.03 136.29 36.47 68.19 72.91 136.29 72.91 136.29Z" opacity="0.8"/><path d="M517.47 137.72L590.35 137.72 553.91 205.83 517.47 137.72Z" opacity="0.2"/><path d="M0.03 137.86L72.91 137.86 36.47 205.96 0.03 137.86Z" opacity="0.2"/></g></g></g></svg>
@@ -46,7 +35,7 @@ require_once('header.php');
             <div class="section-inner">
                 <div class="content-block">
                     <p>As the Junior Youth Spiritual Empowerment Program makes a positive impact throughout the globe, we are learning about young people’s potential to create powerful change.</p>
-                    <a href="#articleStart" class="btn_clear js-scrollToAnchor" data-gaValue="jump_to_section_continue_below">Continues below <i class="fa fa-angle-down"></i></a>
+                    <a href="#articleStart" class="btn_clear"></i></a>
                 </div>
             </div>
         </section>
@@ -71,9 +60,9 @@ require_once('header.php');
             <div class="menu_jumpto">
                 <h3 class="jumpto-heading">Jump to</h3>
                 <ul class="jumpto-items">
-                    <li class="jumpto-item"><a href="#forces" class="jumpto-link js-scrollToAnchor" data-gaValue="jump_to_section_positive_negative">What positive and negative forces influence the choices I make?</a></li>
-                    <li class="jumpto-item"><a href="#choices" class="jumpto-link js-scrollToAnchor" data-gaValue="jump_to_section_influences">Are these influences pushing me to make choices I shouldn’t have to make?</a></li>
-                    <li class="jumpto-item"><a href="#community" class="jumpto-link js-scrollToAnchor" data-gaValue="jump_to_section_better_my_community">How can I better my community when I’m still working on myself?</a></li>
+                    <li class="jumpto-item"><a href="#forces" class="jumpto-link">What positive and negative forces influence the choices I make?</a></li>
+                    <li class="jumpto-item"><a href="#choices" class="jumpto-link">Are these influences pushing me to make choices I shouldn’t have to make?</a></li>
+                    <li class="jumpto-item"><a href="#community" class="jumpto-link">How can I better my community when I’m still working on myself?</a></li>
                 </ul>
             </div>
         </div>
@@ -117,26 +106,7 @@ require_once('header.php');
                     <p>We don’t have to be perfect to try. We believe that there are three things everyone can do: work on our own spiritual health, serve others, and build true friendships. We can do all of these things at the same time — and they work hand-in-hand. Service to others strengthens our personal growth, our own development enhances our ability to serve others. Growing and serving alongside true friends gives us the encouragement and support to follow this path all our lives.</p>
                     <p>Young people have an important role to play in helping communities grow materially and spiritually. Not only that, but they can help mobilize older and younger generations to do the same. The Junior Youth Spiritual Empowerment Program brings together adults, adolescents, and children who are asking these questions and learning how to better our communities — not just materially, but spiritually as well.</p>
 
-                    <div class="sm-container">
-                        <h6 class="sm-heading">Share this</h6>
-                        <ul class="sm-links">
-                            <li>
-                                <a href="http://twitter.com/share?url=https://www.upliftchapelboro.org/three-questions&amp;text=%22Three questions you need to ask yourself%22 by Uplift Chapelboro" target="_blank" class="sm-link" onclick="ga('send', 'event', 'button', 'click', 'share_via_twitter', 1);">
-                                    <span class="icon icon-sm tw"><i class="fa fa-twitter"></i></span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="/three-questions.php/www.facebook.com/sharer.php?u=https://www.upliftchapelboro.org/three-questions" target="_blank" class="sm-link" onclick="ga('send', 'event', 'button', 'click', 'share_via_facebook', 1);">
-                                    <span class="icon icon-sm fb"><i class="fa fa-facebook-square"></i></span>
-                                </a>
-                            </li>
-                            <li>
-                                <a class="sm-link" onclick="ga(&#39;send&#39;, &#39;event&#39;, &#39;button&#39;, &#39;click&#39;, &#39;share_via_email&#39;, 1);" href="mailto:?body=Here%20are%20the%20three%20questions%20to%20help%20you%20examine%20how%20the%20choices%20you%20make%20can%20contribute%20to%20social%20progress.%20https%3A%2F%2Fwww.upliftchapelboro.org%2Fthree-questions&amp;subject=Three%20questions%20you%20need%20to%20ask%20yourself">
-                                    <span class="icon icon-sm em"><i class="fa fa-envelope"></i></span>
-                                </a>    </li>
-                        </ul>
-                    </div>
-
+                    <?= share_this($page); ?>
                 </div>
             </div>
         </section>

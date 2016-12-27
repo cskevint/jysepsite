@@ -119,13 +119,6 @@ function doForm() {
         }
     })
 }
-function bindAnchorLinks() {
-    if (zQ(".js-scrollToAnchor"))for (i = 0; i < zQA(".js-scrollToAnchor").length; i++)zBindEvent(zQA(".js-scrollToAnchor")[i], "click", function (e) {
-        zRemoveClass(html, "show-mobileNav");
-        var t = zGetCurrentTargetElement(e), n = zQ(t.getAttribute("href")), o = zQ(getDocumentScroll()), i = o.scrollTop - 80, a = t.getAttribute("data-gaValue");
-        scrollToAnchor(e, o, i, n, 20, 250), window.ga && ga("send", "event", "link", "click", a, 1)
-    })
-}
 function fadeMapIconsIn() {
     if (zQ(".map") && isScrolledIntoView(zQ(".map")))for (i = 0; i < zQA(".map .btn_map").length; i++) {
         var e = zQA(".map .btn_map")[i];
@@ -149,5 +142,5 @@ var html = zQ("html"), aboveHeight = 200, phone_field = zQ(".js-phone"), email_f
 window.onscroll = function () {
     pinNav(), fadeMapIconsIn(), unpinScrollDownButton()
 }, window.onload = function () {
-    bindAnchorLinks(), doForm(), bindNavButton(), formFieldRandom(), formFieldSwitcher(), loadVideo(), pinScrollDownButton()
+    doForm(), bindNavButton(), formFieldRandom(), formFieldSwitcher(), loadVideo(), pinScrollDownButton()
 };

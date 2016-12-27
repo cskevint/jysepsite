@@ -1,4 +1,7 @@
-<? require_once('globals.php'); ?>
+<?php
+require_once('globals.php');
+require_once('functions.php');
+?>
 
 <!doctype html>
 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:fb="http://www.facebook.com/2008/fbml" xmlns:og="http://ogp.me/ns#">
@@ -109,7 +112,7 @@
     <a href="index.php" class="site-logo" title="<?= $website_title ?>">
         <img src="img/logo.png" alt="" class="icon">
     </a>
-    <a href="get-involved" class="btn_cta pri-1 js-scrollToAnchor">
+    <a href="get-involved" class="btn_cta pri-1">
         Get involved
     </a>
     <a href="<?= $facebook_page ?>" class="sm-link" target="_blank">
@@ -123,10 +126,10 @@
         <ul>
             <li class="is-current"><a href="index">Home</a></li>
             <li>
-                <a href="index#what_is_jysp" class="js-scrollToAnchor">What is the JYSEP?</a>
+                <a href="index#what_is_jysp" class="">What is the JYSEP?</a>
             </li>
             <li>
-                <a href="index#what_motivates_us" class="js-scrollToAnchor">What Motivates Us</a>
+                <a href="index#what_motivates_us" class="">What Motivates Us</a>
             </li>
             <li class="slight-indent">
                 <a href="three-questions">Three Questions To Ask Ourselves</a>
