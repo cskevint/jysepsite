@@ -21,7 +21,7 @@ require_once('header.php');
         <header class="topic-header">
             <div class="section-inner">
                 <h1 class="topic-heading">Get Involved</h1>
-                <span class="metadata">Posted November 6, 2015 - 3 min read</span>
+                <span class="metadata">Posted December 29, 2016 - 3 min read</span>
 
                 <?= share_this($page) ?>
 
