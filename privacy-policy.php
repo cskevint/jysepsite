@@ -22,8 +22,8 @@ require_once('header.php');
         <section class="site-section">
             <div class="section-inner">
                 <div class="content-block">
-                    <p>Thank you for sharing about yourself with us! We sponsor, and facilitate the development of, the Junior Youth Spiritual Empowerment Program (JYSEP) in North Carolina and other nearby states. This site has been created to assist those who might be interested in our Program to learn more about what we do, what we believe, and how anyone can get involved. All content on this website is copyrighted by the National Spiritual Assembly of the Baha’is of the United States.</p>
-                    <p>For the comfort and safety of parents and families, we encourage parental consent when youth offer personal information through the site. While Upliftchapelboro is exempt from the Children’s Online Privacy Protection Act (COPPA), as a nonprofit organization, we have taken measures to fulfill basic measurements to protect readers’ privacy, including the following:</p>
+                    <p>Thank you for sharing about yourself with us! We sponsor, and facilitate the development of, the Junior Youth Spiritual Empowerment Program (JYSEP) in <?= $program_state ?> and other nearby states. This site has been created to assist those who might be interested in our Program to learn more about what we do, what we believe, and how anyone can get involved. All content on this website is copyrighted by the National Spiritual Assembly of the Baha’is of the United States.</p>
+                    <p>For the comfort and safety of parents and families, we encourage parental consent when youth offer personal information through the site. While <?= $website_short_title ?> is exempt from the Children’s Online Privacy Protection Act (COPPA), as a nonprofit organization, we have taken measures to fulfill basic measurements to protect readers’ privacy, including the following:</p>
                     <ul>
                         <li>Contacting Us: If a youth or adult sends us a message using our Contact form found in the footer, we ask for a first name, last name, e­mail address, and/or phone number. This information is used to respond to the message.</li>
                         <li>Future Contact: We may use e­mail addresses and other contact information provided to us only to contact website visitors with news and developments about the website, or with invitations to participate in our Program gatherings, surveys, special events, or other initiatives.</li>
@@ -47,13 +47,13 @@ require_once('header.php');
                     </header>
                     <p>All articles on this website may be freely reprinted, e­mailed, re­posted online, and otherwise reproduced by an individual or organization, subject to the following restrictions:</p>
                     <ul>
-                        <li>They must at all times be attributed to the “Upliftchapelboro website”.</li>
-                        <li>The reproduction must be accompanied by a link to this website (in online media) or the URL (<a href="http://www.upliftchapelboro.org">www.upliftchapelboro.org</a>) of this site (in other media).</li>
+                        <li>They must at all times be attributed to the “<?= $website_short_title ?> website”.</li>
+                        <li>The reproduction must be accompanied by a link to this website (in online media) or the URL (<a href="<?= $website_url ?>"><?= $website_url ?></a>) of this site (in other media).</li>
                         <li>Articles and photographs cannot be used in any way (including, without limitation, suggesting an association with or endorsement of any product, service, opinion, or cause) which conflicts with the intent and premise of the original source.</li>
                         <li>Although this blanket permission to reproduce select articles from this site is given freely such that no special permission is required, the National Spiritual Assembly of the Bahá’ís of the United States retains full copyright protection for these articles under all applicable national and international laws.</li>
                     </ul>
                     <p>If you have any questions or concerns about this policy, please contact us.</p>
-                    <p class="metadata">Last updated: 9.15.15</p>
+                    <p class="metadata">Last updated: 12.29.16</p>
                 </div>
             </div>
         </section>

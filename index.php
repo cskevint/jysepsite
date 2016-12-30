@@ -25,7 +25,7 @@ require_once('header.php');
                 <h1 class="intro-heading">
                     Inspiring young people, parents, and community members to work together toward a better world.
                 </h1>
-                <p><?= $index_intro_sentence_1?> <?= $index_intro_sentence_2 ?></p>
+                <p>The <strong>Junior Youth Spiritual Empowerment Program (JYSEP)</strong> is a global movement inspiring young people, parents, and community members to work together toward a better world. Over the past 10 years, the program has grown locally from being supported by a small group of youth to include the participation of over 50 junior youth throughout <?= $program_location?>.</p>
                 <a href="<?= $facebook_page ?>" class="btn_clear" target="_blank">Join us on our Facebook Group <i class="fa fa-angle-double-right"></i></a>
             </div>
             <?= contact_form('top') ?>
