@@ -7,11 +7,11 @@ $email = $_REQUEST['email'];
 $phone = $_REQUEST['phone'];
 
 $to = $program_email;
-$subject = "SM JYSEP: ".$name;
+$subject = "New contact: ".$name;
 if(strlen($phone) > 0) {
-    $body = "Name: ".$name."<br/>Phone: ".$phone;
+    $body = "Name: ".$name."\nPhone: ".$phone;
 } elseif(strlen($email) > 0) {
-    $body = "Name: ".$name."<br/>Email: ".$email;
+    $body = "Name: ".$name."\nEmail: ".$email;
 }
 
 $from_header = "From: San Mateo JYSEP <".$contact_from_email.">\r\n";
