@@ -62,17 +62,14 @@ require_once('header.php');
                     <header class="section-header no-indent">
                         <h2 class="section-heading">Step 1: Come to an interest meeting</h2>
                     </header>
-                    <p>If you want to learn more about becoming a mentor, an interest meeting is the perfect place to start. At our interest meetings, which last about one to two hours, you’ll learn more about the program, the role of a mentor, the training process, and review the curriculum materials. RSVP to a nearby interest meeting using the form below.</p>
-                    <p><strong>Carrboro and Chapel Hill</strong><br/>
-                        Friday, November 20, 4-5PM<br/>
-                        Chapel Hill Public Library<br/>
-                        Meeting Room D<br>
-                        100 Library Dr.</p>
-                    <p><strong>Durham</strong><br/>
-                        Monday, November 23, 5-6PM<br/>
-                        Durham County Library, South Branch<br/>
-                        Study Room 1<br/>
-                        4505 S Alston Ave.</p>
+                    <p>If you want to learn more about becoming a mentor, an interest meeting is the perfect place to start. At our interest meetings, which last about one to two hours, you’ll learn more about the program, the role of a mentor, the training process, and review the curriculum materials. RSVP to a nearby interest meeting using the <a href="#get-involved">form below</a>.</p>
+                    <p>
+                        <strong>Saturday, February 11, 10-11:45AM</strong><br/>
+                        Martin Luther King Center<br/>
+                        Social Room B<br>
+                        725 Monte Diablo Ave<br/>
+                        San Mateo, CA 94401
+                    </p>
                 </div>
             </div>
         </section>
@@ -87,7 +84,7 @@ require_once('header.php');
                     </figure>
                     <p>After attending an interest meeting, you’re invited join a training course that explores topics like the potential of young people, the purpose of the program, and personal character development that helps mentors better assist their groups. With the help of a coordinator, you'll be trained in the Junior Youth Spiritual Empowerment Program course materials, learn cooperative games to share with your groups, and spend time in the field helping an existing junior youth group.</p>
                     <p class="clear"><strong>Training Schedule</strong><br/>
-                        The free training is offered on a normal and an intensive schedule. Intensive training usually lasts 6 weekends, and weekly training can typically be completed in a semester. The next trainings begin in January 2016 and will be held in many locations throughout the Triangle.</p>
+                        The free training is offered on a normal and an intensive schedule. Intensive training usually lasts 6 weekends, and weekly training can typically be completed in a semester. The next trainings will begin soon after the interest meetings and will be held in many locations throughout the area.</p>
                 </div>
             </div>
         </section>

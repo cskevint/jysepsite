@@ -26,7 +26,7 @@ $index_intro_sentence_2 = "Over the past 10 years, the program has grown locally
 
 $true_friendship = false;
 $three_questions = false;
-$get_involved = false;
+$get_involved = true;
 
 if($_REQUEST['admin'] == 'true') {
     $true_friendship = true;

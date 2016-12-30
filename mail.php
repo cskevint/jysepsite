@@ -7,14 +7,14 @@ $email = $_REQUEST['email'];
 $phone = $_REQUEST['phone'];
 
 $to = $program_email;
-$subject = 'Contact Us';
+$subject = "SM JYSEP: ".$name;
 if(strlen($phone) > 0) {
-    $body = "Phone: ".$phone;
+    $body = "Name: ".$name."<br/>Phone: ".$phone;
 } elseif(strlen($email) > 0) {
-    $body = "Email: ".$email;
+    $body = "Name: ".$name."<br/>Email: ".$email;
 }
 
-$from_header = "From: ".$name." <".$contact_from_email.">\r\n";
+$from_header = "From: San Mateo JYSEP <".$contact_from_email.">\r\n";
 $passed_honeypot = strlen($_REQUEST['lastname']) == 0;
 
 $result = array('success' => false);

@@ -111,7 +111,15 @@ require_once('functions.php');
 
 </head>
 <body class="c-home is-index">
+<script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+    ga('create', 'UA-89604151-1', 'auto');
+    ga('send', 'pageview');
 
+</script>
 <header class="site-header">
     <a href="index" class="site-logo" title="<?= $website_title ?>">
         <img src="img/logo.png" alt="" class="icon">
