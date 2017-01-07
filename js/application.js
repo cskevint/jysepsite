@@ -188,6 +188,7 @@ $(function(){
             $form.addClass('is-loading');
             $.post('mail', $(this).serialize(), function(response){
                 if(response.success) {
+                    fbq('track', 'Lead');
                     $form.addClass('is-success');
                     $form.find('.btn_form').text('Thanks!');
                     $form[0].reset();
