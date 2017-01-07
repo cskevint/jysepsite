@@ -33,4 +33,6 @@ if($_REQUEST['admin'] == 'true') {
     $get_involved = true;
 }
 
+$is_production = $_SERVER['HTTP_HOST'] == 'sanmateo.junioryouth.us';
+
 ?>

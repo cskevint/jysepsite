@@ -166,13 +166,24 @@ $(function(){
                 return false;
             }
             if($form.find('.name').val().length == 0) {
+                $form.find('.name').css('border','1px solid red');
                 return false;
+            } else {
+                $form.find('.name').css('border','0 none');
             }
             if($form.find('.phone').val().length == 0 && $form.find('.email').val().length == 0) {
+                $form.find('.phone').css('border','1px solid red');
+                $form.find('.email').css('border','1px solid red');
                 return false;
+            } else {
+                $form.find('.phone').css('border','0 none');
+                $form.find('.email').css('border','0 none');
             }
             if($form.find('.phone').val().length && !/^\(?(\d{3})\)?[- ]?(\d{3})[- ]?(\d{4})$/.test($form.find('.phone').val())) {
+                $form.find('.phone').css('border','1px solid red');
                 return false;
+            } else {
+                $form.find('.phone').css('border','0 none');
             }
             $form.addClass('is-loading');
             $.post('mail', $(this).serialize(), function(response){
@@ -185,5 +196,14 @@ $(function(){
             return false;
         });
     }
+    function addGlobalClickHandler() {
+        $(document).on('click', function(e){
+            if($(e.target).hasClass('hideNav')) {
+                $('html').removeClass('show-mobileNav');
+            }
+            return true;
+        });
+    }
     setupForm();
+    addGlobalClickHandler();
 });

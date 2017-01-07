@@ -120,6 +120,21 @@ require_once('functions.php');
     ga('send', 'pageview');
 
 </script>
+<?php
+
+$is_index = basename($_SERVER['PHP_SELF']) == 'index.php';
+
+if ($is_index) {
+    $index_url = '';
+} else {
+    if ($is_production) {
+        $index_url = '/';
+    } else {
+        $index_url = 'index';
+    }
+}
+
+?>
 <header class="site-header">
     <a href="index" class="site-logo" title="<?= $website_title ?>">
         <img src="img/logo.png" alt="" class="icon">
@@ -136,21 +151,21 @@ require_once('functions.php');
     <button class="btn_showMobileNav js-showMobileNav"><span></span></button>
     <nav class="site-nav">
         <ul>
-            <li class="is-current"><a href="index">Home</a></li>
+            <li class="is-current"><a href="<?= $index_url ?>#" class="hideNav">Home</a></li>
             <li>
-                <a href="index#what_is_jysp" class="">What is the JYSEP?</a>
+                <a href="<?= $index_url ?>#what_is_jysp" class="hideNav">What is the JYSEP?</a>
             </li>
             <li>
-                <a href="index#what_motivates_us" class="">What Motivates Us</a>
+                <a href="<?= $index_url ?>#what_motivates_us" class="hideNav">What Motivates Us</a>
             </li>
             <li class="slight-indent" <?=hide_page($three_questions)?>>
-                <a href="three-questions">Three Questions To Ask Ourselves</a>
+                <a href="three-questions" class="hideNav">Three Questions To Ask Ourselves</a>
             </li>
             <li class="slight-indent" <?=hide_page($true_friendship)?>>
-                <a href="true-friendship">What Is True Friendship?</a>
+                <a href="true-friendship" class="hideNav">What Is True Friendship?</a>
             </li>
             <li class="" <?=hide_page($get_involved)?>>
-                <a href="get-involved">Get Involved</a>
+                <a href="get-involved" class="hideNav">Get Involved</a>
             </li>
         </ul>
         <a href="<?= $facebook_page ?>" class="sm-link" target="_blank">
