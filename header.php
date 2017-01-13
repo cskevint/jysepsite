@@ -97,11 +97,11 @@ require_once('functions.php');
     t.src=v;s=b.getElementsByTagName(e)[0];
     s.parentNode.insertBefore(t,s)}(window,document,'script',
     'https://connect.facebook.net/en_US/fbevents.js');
-    fbq('init', '726915647475808'); 
+    fbq('init', '1730606003919428');
     fbq('track', 'PageView');
     fbq('track', 'ViewContent');
 </script>
-<noscript><img height="1" width="1" src="https://www.facebook.com/tr?id=726915647475808&ev=PageView&noscript=1"/></noscript>
+<noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=1730606003919428&ev=PageView&noscript=1"/></noscript>
 <?php
 
 $is_index = basename($_SERVER['PHP_SELF']) == 'index.php';
