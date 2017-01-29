@@ -64,6 +64,12 @@ require_once('header.php');
                     </header>
                     <p>If you want to learn more about becoming a mentor, an interest meeting is the perfect place to start. At our interest meetings, which last about one to two hours, you’ll learn more about the program, the role of a mentor, the training process, and review the curriculum materials. RSVP to a nearby interest meeting using the <a href="#get-involved">form below</a>.</p>
                     <p>
+                        <strong>Saturday, February 4, 2-3:45PM</strong><br/>
+                        Recreation Room @<br/>
+                        58 N El Camino Real<br/>
+                        San Mateo, CA 94401
+                    </p>
+                    <p>
                         <strong>Saturday, February 11, 10-11:45AM</strong><br/>
                         Martin Luther King Center<br/>
                         Social Room B<br>
