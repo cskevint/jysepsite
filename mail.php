@@ -27,30 +27,32 @@ if($passed_honeypot && strlen($body) > 0 && mail($to, $subject, $body, $from_hea
 header('Content-type: application/json');
 echo json_encode($result);
 
-$row = array(date("m/d/y"), $name, $email, $phone);
+if ($add_to_spreadsheet) {
+    $row = array(date("m/d/y"), $name, $email, $phone);
 
-require_once __DIR__.'/vendor/autoload.php';
+    require_once __DIR__.'/vendor/autoload.php';
 
-putenv('GOOGLE_APPLICATION_CREDENTIALS=/home/doopr/service-account.json');
-$client = new Google_Client();
-$client->useApplicationDefaultCredentials();
-$client->addScope(Google_Service_Sheets::SPREADSHEETS);
+    putenv('GOOGLE_APPLICATION_CREDENTIALS=/home/doopr/service-account.json');
+    $client = new Google_Client();
+    $client->useApplicationDefaultCredentials();
+    $client->addScope(Google_Service_Sheets::SPREADSHEETS);
 
-$service = new Google_Service_Sheets($client);
+    $service = new Google_Service_Sheets($client);
 
-$spreadsheetId = '1AAQp8dIRmSAHntpArPdZfkVZ9EQ7jupMxsAb4lN16mg';
-$range = 'Contact List!A2:D';
+    $spreadsheetId = '1AAQp8dIRmSAHntpArPdZfkVZ9EQ7jupMxsAb4lN16mg';
+    $range = 'Contact List!A2:D';
 
-$values = array($row);
-$body = new Google_Service_Sheets_ValueRange(array(
-  'values' => $values
-));
+    $values = array($row);
+    $body = new Google_Service_Sheets_ValueRange(array(
+        'values' => $values
+    ));
 
-$valueInputOption = 'USER_ENTERED';
-$params = array(
-  'valueInputOption' => $valueInputOption
-);
+    $valueInputOption = 'USER_ENTERED';
+    $params = array(
+        'valueInputOption' => $valueInputOption
+    );
 
-$result = $service->spreadsheets_values->append($spreadsheetId, $range, $body, $params);
+    $result = $service->spreadsheets_values->append($spreadsheetId, $range, $body, $params);
+}
 
 ?>
