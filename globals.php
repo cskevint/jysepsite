@@ -23,11 +23,14 @@ $page_og_title = $website_title;
 $page_og_description = $website_short_description;
 $page_og_image = "";
 
+$events = "<p><strong>Saturday, February 4, 2-3:45PM</strong><br/>Recreation Room @<br/>58 N El Camino Real<br/>San Mateo, CA 94401</p>";
+#$events .= "<p><strong>Saturday, February 11, 10-11:45AM</strong><br/>Martin Luther King Center<br/>Social Room B<br>725 Monte Diablo Ave<br/>San Mateo, CA 94401</p>";
+
 $true_friendship = false;
 $three_questions = false;
 $get_involved = true;
 
-if($_REQUEST['admin'] == 'true') {
+if(isset($_REQUEST['admin']) && $_REQUEST['admin'] == 'true') {
     $true_friendship = true;
     $three_questions = true;
     $get_involved = true;
