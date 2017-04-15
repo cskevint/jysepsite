@@ -1,31 +1,31 @@
 <?php
 
-$website_url = "http://sanmateo.junioryouth.us";
-$website_title = "San Mateo Junior Youth Spiritual Empowerment Program";
-$website_short_title = "San Mateo JYSEP";
+$website_url = "http://chicago.junioryouth.us";
+$website_title = "Chicago Junior Youth Spiritual Empowerment Program";
+$website_short_title = "Chicago JYSEP";
 
-$program_address = "30 N Grant St<br>San Mateo, CA 94401";
-$program_email = "sanmateojysep@gmail.com";
+$program_address = "";
+$program_email = "chicago@junioryouth.us";
 $program_phone = "(650) 999-0019";
-$program_state = "California";
-$program_location = "San Mateo County";
+$program_state = "Illinois";
+$program_location = "Chicago";
 
 $website_short_description = "Inspiring young people, parents, and community members to work together toward a better world.";
 $website_meta_description = "A global volunteer and mentoring program inspiring young people, parents, and community members to work together toward a better world. Over the past 10 years, the program has grown throughout ".$program_location;
 $website_meta_keywords = "Junior Youth Spiritual Empowerment Program, Volunteer, Mentor, Middle School, Youth, Service, After School Program, Community, Spiritual, Religion, Social Action";
 $website_about = "Serving the region for more than 10 years, the Junior Youth Spiritual Empowerment Program is a mentoring initiative that inspires young people, parents, and community members to work together toward a better world.";
 
-$facebook_page = "https://www.facebook.com/sanmateojysep";
+$facebook_page = "https://www.facebook.com/chicagojysep";
 
-$contact_from_email = "core@sanmateo.junioryouth.us";
+$contact_from_email = "chicago@junioryouth.us";
 
 $page_og_url = $website_url;
 $page_og_title = $website_title;
 $page_og_description = $website_short_description;
 $page_og_image = "";
 
-$events = "<p><strong>Saturday, February 4, 2-3:45PM</strong><br/>Recreation Room @<br/>58 N El Camino Real<br/>San Mateo, CA 94401</p>";
-#$events .= "<p><strong>Saturday, February 11, 10-11:45AM</strong><br/>Martin Luther King Center<br/>Social Room B<br>725 Monte Diablo Ave<br/>San Mateo, CA 94401</p>";
+$events = "";
+#$events .= "<p><strong>Saturday, February 11, 10-11:45AM</strong><br/>Martin Luther King Center<br/>Social Room B<br>725 Monte Diablo Ave<br/>Chicago, CA 94401</p>";
 
 $true_friendship = false;
 $three_questions = false;
@@ -37,6 +37,6 @@ if(isset($_REQUEST['admin']) && $_REQUEST['admin'] == 'true') {
     $get_involved = true;
 }
 
-$is_production = $_SERVER['HTTP_HOST'] == 'sanmateo.junioryouth.us';
+$is_production = $_SERVER['HTTP_HOST'] == 'chicago.junioryouth.us';
 
 ?>
