@@ -18,7 +18,7 @@ $website_about = "Serving the region for more than 10 years, the Junior Youth Sp
 $facebook_page = "https://www.facebook.com/chicagojysep";
 
 $contact_from_email = "chicago@junioryouth.us";
-$add_to_spreadsheet = true;
+$add_to_spreadsheet = false;
 
 $page_og_url = $website_url;
 $page_og_title = $website_title;
