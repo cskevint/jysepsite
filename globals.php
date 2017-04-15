@@ -6,7 +6,7 @@ $website_short_title = "Chicago JYSEP";
 
 $program_address = "";
 $program_email = "chicago@junioryouth.us";
-$program_phone = "(650) 999-0019";
+$program_phone = "(773) 609-5651";
 $program_state = "Illinois";
 $program_location = "Chicago";
 
