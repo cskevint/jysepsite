@@ -16,7 +16,7 @@ if(strlen($phone) > 0) {
     $body = "Name: ".$name."\nEmail: ".$email.$sheet;
 }
 
-$from_header = "From: San Mateo JYSEP <".$contact_from_email.">\r\n";
+$from_header = "From: ".$website_short_title."<".$contact_from_email.">\r\n";
 $passed_honeypot = strlen($_REQUEST['lastname']) == 0;
 
 $result = array('success' => false);
