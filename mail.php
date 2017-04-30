@@ -39,7 +39,7 @@ if ($add_to_spreadsheet) {
 
     $service = new Google_Service_Sheets($client);
 
-    $spreadsheetId = '1AAQp8dIRmSAHntpArPdZfkVZ9EQ7jupMxsAb4lN16mg';
+    $spreadsheetId = '1ZR8pHhSYvVRsmT_CSSvOzXIGJzT8ddnlvovxps6j_qc';
     $range = 'Contact List!A2:D';
 
     $values = array($row);
