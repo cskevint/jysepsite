@@ -76,7 +76,7 @@ require_once('header.php');
                     <figure class="content-image is-halfsize">
                         <img src="img/topic-3-half.jpg" alt="">
                     </figure>
-                    <p>After attending an interest meeting, you’re invited join a training course that explores topics like the potential of young people, the purpose of the program, and personal character development that helps mentors better assist their groups. With the help of a coordinator, you'll be trained in the Junior Youth Spiritual Empowerment Program course materials, learn cooperative games to share with your groups, and spend time in the field helping an existing junior youth group.</p>
+                    <p>After attending an interest meeting, you’re invited to join a training course that explores topics like the potential of young people, the purpose of the program, and personal character development that helps mentors better assist their groups. With the help of a coordinator, you'll be trained in the Junior Youth Spiritual Empowerment Program course materials, learn cooperative games to share with your groups, and spend time in the field helping an existing junior youth group.</p>
                     <p class="clear"><strong>Training Schedule</strong><br/>
                         The free training is offered on a normal and an intensive schedule. Intensive training usually lasts 6 weekends, and weekly training can typically be completed in a semester. The next trainings will begin soon after the interest meetings and will be held in many locations throughout the area.</p>
                 </div>
