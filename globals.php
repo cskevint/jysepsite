@@ -6,7 +6,7 @@ $website_short_title = "Chicago JYSEP";
 
 $program_address = "";
 $program_email = "chicago@junioryouth.us";
-$program_phone = "(773) 609-5651";
+$program_phone = "(872) 302-7922";
 $program_state = "Illinois";
 $program_location = "Chicago";
 
@@ -25,8 +25,8 @@ $page_og_title = $website_title;
 $page_og_description = $website_short_description;
 $page_og_image = "";
 
-$events = "";
-#$events .= "<p><strong>Saturday, February 11, 10-11:45AM</strong><br/>Martin Luther King Center<br/>Social Room B<br>725 Monte Diablo Ave<br/>Chicago, CA 94401</p>";
+$events = "<p><strong>Wednesday, May 3rd, 6:00pm - 7:30pm</strong><br/>Pottawatomie Park<br/>7340 N Rogers Ave<br/>Chicago, IL 60626</p>";
+$events .= "<p><strong>Saturday, May 6, 10:00am-11:30am</strong><br/>Rogers Park Library South Community Room<br/>6907 N Clark St<br/>Chicago IL, 60626</p>";
 
 $true_friendship = false;
 $three_questions = false;
