@@ -1,5 +1,7 @@
 <?php
 
+require_once('globals.php');
+
 $page = array(
     'url' => $website_url."/get-involved",
     'title' => "Get Involved",

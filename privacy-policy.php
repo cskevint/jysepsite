@@ -1,5 +1,7 @@
 <?php
 
+require_once('globals.php');
+
 $page_og_url = $website_url."/privacy-policy";
 $page_og_title = "";
 $page_og_description = "";

@@ -1,5 +1,7 @@
 <?php
 
+require_once('globals.php');
+
 $page = array(
     'url' => $website_url."/three-questions",
     'title' => "Three questions you need to ask yourself",
