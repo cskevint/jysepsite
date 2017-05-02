@@ -1,7 +1,7 @@
 <?php
 
 $page = array(
-    'url' => "http://sanmateo.junioryouth.us/three-questions",
+    'url' => $website_url."/three-questions",
     'title' => "Three questions you need to ask yourself",
     'description' => "We have a lot in common with young people all over the world, even though our cultures, backgrounds, and personalities may be different. One of our most important similarities is our readiness to make a change in the world. But before we can do that, we need to take a look at our own lives. Here are three questions to help you examine how the choices you make can contribute to social progress. So, go ahead and think about them or talk them over with a friend.",
     'image' => "img/topic-1-full_fb.jpg"

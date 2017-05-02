@@ -1,6 +1,6 @@
 <?php
 
-$page_og_url = "http://sanmateo.junioryouth.us/privacy-policy";
+$page_og_url = $website_url."/privacy-policy";
 $page_og_title = "";
 $page_og_description = "";
 

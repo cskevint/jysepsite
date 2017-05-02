@@ -1,7 +1,7 @@
 <?php
 
 $page = array(
-    'url' => "http://sanmateo.junioryouth.us/true-friendship",
+    'url' => $website_url."/true-friendship",
     'title' => "What is True Friendship?",
     'description' => "Friendships are at the core of the Junior Youth Spiritual Empowerment Program. We would like to share some of the lessons we’ve learned over the years.",
     'image' => "img/topic-2-full_fb.jpg"

@@ -1,7 +1,7 @@
 <?php
 
 $page = array(
-    'url' => "http://sanmateo.junioryouth.us/get-involved",
+    'url' => $website_url."/get-involved",
     'title' => "Get Involved",
     'description' => "We are looking for young adults to become mentors for the Junior Youth Spiritual Empowerment Program. No special skills are needed; the only requirement is an eagerness to help create better neighborhoods. There are three steps to become a mentor. Read on to find out how to get started.",
     'image' => "img/topic-3-full_fb.jpg"
