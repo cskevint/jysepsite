@@ -3,8 +3,8 @@
 require_once('globals.php');
 
 $page = array(
-    'url' => $website_url."/get-involved",
-    'title' => "Get Involved",
+    'url' => $website_url."/thank-you",
+    'title' => "Thank you!",
     'description' => "We are looking for young adults to become mentors for the Junior Youth Spiritual Empowerment Program. No special skills are needed; the only requirement is an eagerness to help create better neighborhoods. There are three steps to become a mentor. Read on to find out how to get started.",
     'image' => "img/topic-3-full_fb.jpg"
 );
