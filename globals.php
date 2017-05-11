@@ -25,7 +25,7 @@ $page_og_title = $website_title;
 $page_og_description = $website_short_description;
 $page_og_image = "";
 
-$events = "<p><strong>Saturday, May 13, 12:00pm-1:30pm</strong><br/>Loyola University Chicago<br/>Life Science Building 3rd floor<br/>1050 West Sheridan Road<br/>Chicago, IL 60660<br/><a href='https://www.facebook.com/events/155409478327811/'>Facebook Event</a><br/></p><p><img src='loyola.png'></p>";
+$events = "<p><strong>Saturday, May 13, 12:00pm-1:30pm</strong><br/>Loyola University Chicago<br/>Life Science Building 3rd floor<br/>1050 West Sheridan Road<br/>Chicago, IL 60660<br/><a href='https://www.facebook.com/events/155409478327811/'>Facebook Event</a><br/></p><p><img src='loyola.jpg'></p>";
 
 $true_friendship = false;
 $three_questions = false;
