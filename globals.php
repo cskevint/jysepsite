@@ -25,8 +25,7 @@ $page_og_title = $website_title;
 $page_og_description = $website_short_description;
 $page_og_image = "";
 
-$events = "<p><strong>Saturday, May 6, 10:00am-11:30am</strong><br/>Rogers Park Library South Community Room<br/>6907 N Clark St<br/>Chicago IL, 60626<br/><a href='https://www.facebook.com/events/127807864434509/'>Facebook Event</a></p>";
-$events .= "<p><strong>Monday, May 8, 6:00pm-7:30pm</strong><br/>Field House at Pottawatomie Park<br/>7340 N Rogers Ave<br/>Chicago, IL 60626<br/><a href='https://www.facebook.com/events/1282162715231586/'>Facebook Event</a></p>";
+$events = "<p><strong>Saturday, May 13, 12:00pm-1:30pm</strong><br/>Loyola University Chicago<br/>Life Science Building 3rd floor<br/>1050 West Sheridan Road<br/>Chicago, IL 60660<br/><a href='https://www.facebook.com/events/155409478327811/'>Facebook Event</a><br/></p><p><img src='loyola.png'></p>";
 
 $true_friendship = false;
 $three_questions = false;
